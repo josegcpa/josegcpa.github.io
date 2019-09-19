@@ -14,6 +14,3 @@ Stuff I develop on my free time. Mostly music and programming, sometimes a bit o
 
 * [Z G A](files/zga.md) - my "artistic" (if you can call it that) moniker. I do mostly electronic with no particular focus on subgenre, but I mostly do IDM (hate the term), industrial and/or hip-hop. I will soon be doing some releases, both solo and featuring colaborations (with DEL and SPASM). Follow me on [Facebook](https://www.facebook.com/ZGAZGAZGA/) to be the first to know when they are released
 
-# Follow me 
-
-I am pretty much everywhere, but one of the best places to catch me is on [Twitter](https://twitter.com/zga_aaa).
