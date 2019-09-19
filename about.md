@@ -12,7 +12,7 @@ Previously and during my MsC. thesis, I worked in [Irina Moreira's Data-Driven M
 
 Stuff I develop on my free time. Mostly music and programming, sometimes a bit of both combined.
 
-* [Z G A](projects/zga.md) - my "artistic" (if you can call it that) moniker. I do mostly electronic with no particular focus on subgenre, but I mostly do IDM (hate the term), industrial and/or hip-hop. I will soon be doing some releases, both solo and featuring colaborations (with DEL and SPASM). Follow me on [Facebook](https://www.facebook.com/ZGAZGAZGA/) to be the first to know when they are released
+* [Z G A](files/zga.md) - my "artistic" (if you can call it that) moniker. I do mostly electronic with no particular focus on subgenre, but I mostly do IDM (hate the term), industrial and/or hip-hop. I will soon be doing some releases, both solo and featuring colaborations (with DEL and SPASM). Follow me on [Facebook](https://www.facebook.com/ZGAZGAZGA/) to be the first to know when they are released
 
 # Follow me 
 
