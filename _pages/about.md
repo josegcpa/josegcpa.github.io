@@ -4,7 +4,7 @@ layout: default
 
 # Research
 
-I am currently [a PhD student doing science](https://scholar.google.com/citations?user=4u2Ht8AAAAAJ&hl=en) in [Moritz Gerstung's Computational Cancer Biology group](https://www.ebi.ac.uk/research/gerstung) at the [European Bioinformatics Group](https://www.ebi.ac.uk). My project focuses on understanding how blood images can be associated with clinical and genetic traits using (among other things) deep learning.
+PhD student under [Moritz Gerstung's Computational Cancer Biology group](https://www.ebi.ac.uk/research/gerstung) and George Vassiliou, using data science to better understand haematological cancers. Currently using machine learning and deep learning to look at images of your blood. Currently invested in weird hobbies ranging from musical production to owning colourful socks.
 
 Previously and during my MsC. thesis, I worked in [Irina Moreira's Data-Driven Molecular Design group](http://www.moreiralab.com), focusing on applying machine-learning techniques to predict and understand protein-protein interactions at a structural level.
 

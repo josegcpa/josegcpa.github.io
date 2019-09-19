@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jose Guilherme Almeida"
   avatar           : "profile.png"
-  bio              : "PhD student under Moritz Gerstung and George Vassiliou, using data science to better understand haematological cancers. Currently using machine learning and deep learning to look at images of your blood. Currently invested in weird hobbies ranging from musical production to owning colourful socks."
+  bio              : "Dreaming of electric sheep."
   location         : "Cambridge, United Kingdom"
   employer         : "EMBL-EBI"
   pubmed           : ""
@@ -181,13 +181,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
