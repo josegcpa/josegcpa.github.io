@@ -11,42 +11,80 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Ssc. in Biochemistry, University of Coimbra, 2015
+* M.Ssc. in Cell and Molecular Biology (with a focus on neuroscience), University of Coimbra, 2017
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2014: Research Intern 
+  * *Chemistry Center of Coimbra/Biological Chemistry Group and Molecular Physical-Chemistry I&D Center* - **Universidade de Coimbra**
+  * **Project A**: using NMR to characterise MRI agents (2 weeks)
+    * *Supervisor: Maria Margarida Castro*
+  * **Project B**: using vibrational spectroscopy to characterise polyamine complexes in cancer cell cultures
+    * *Supervisor: Maria Paulo Matos Marques*
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Spring/Summer 2015: Research Intern (BSc. final year project)
+  * *Laboratory of Immunology and Oncology* - **Universidade de Coimbra**
+  * **Project**: studying the differential expression of PD-1/PD-L1 in invidividuals suffering from chronic myeloid leukaemia using flow cytommetry
+    * Supervisor: Paulo Rodrigues Santos
+
+* Winter 2016: Research Intern
+  * *Biophysics Laboratory* - **Universidade de Coimbra**
+  * **Project**: using a perfusion system to study how tolbutamide affects TEA-induced LTP, specifically regarding the release of zinc in the CA3 area of hippocampal slices
+    * Supervisor: Emilia Quintas-Ferreira
+
+* Spring 2016: Research intern
+  * **Biocant**
+  * Project: ODE models of the peroxiredoxin pathway in yeast using Wolfram Mathematica and COPASI
+    * Supervisor: Armindo Salvador
+
+* May 2016 - September 2017: Research intern (Msc. thesis)
+  * **Center for Neuroscience and Cell Biology**
+  * Project: use machine learning and computational tools to study the structure of protein complexes, with particular focus on their interface
+    * Supervisor: Irina S. Moreira
+
+* October 2017 - present: PhD student
+  * **European Bioinformatics Institute**
+  * Project: leveraging modern computer vision (with a particular focus on deep learning) to understand morphological differences in blood cells, with a focus on haematological cancers/clonal haematopoiesis
+    * Supervisor: Moritz Gerstung
+    * Co-supervisor: George S. Vassiliou
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications_previous %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+  <ul>{% for post in site.publications_current %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Skills
+======
+* Programming 
+  * *I have been programming actively for 3 years now, with a quite large focus on machine learning and statistics/data science*
+  * Relevant languages
+    * `Python` - advanced user
+    * `R` - advanced user
+    * `bash` - enough to competent and efficiently use the command line
+    * `C++` - beginner, currently learning
+* Deep learning
+  * *A considerable part of my current work focuses on developing, implementing and using deep learning architectures for classification/segmentation*
+  * Relevant packages: `tensorflow` (`Python`)
+* Machine learning
+  * Relevant packages: `scikit-learn` (`Python`), `caret` (`R`) 
+* Computer vision
+  * Relevant packages: `opencv`, `scikit-image` (`Python`)
+
+Language Skills
+=====
+  * Portuguese - proficient 
+  * English - proficient
+  * Spanish - beginner
+
 Talks
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  * A Machine Learning Based Protein-Protein Hot-Spot Prediction Method - SpotOn. EJIBCE. Lisbon. (2016)
+  * Using big-data to understand the protein interface landscape. EJIBCE. Coimbra. (2017)
   
 Teaching
 ======
@@ -56,4 +94,10 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Co-founder of JEST, a junior enterprise focused on providing data science training
+* Co-director of programming in Radio Universidade de Coimbra, a student-ran radio
+* Integrated several teams in student unions, with a particular interest in pedagogy and ecological and civil service
+
+Other skills
+=====
+* Musical production

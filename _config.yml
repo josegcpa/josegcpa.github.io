@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-UK"
 title                    : "Jose Guilherme Almeida"
 title_separator          : "-"
 name                     : &name "Jose Guilherme Almeida"
-description              : &description "Dreaming of electric sheep"
+description              : &description "Dreaming of electric sheep. PhD student with Moritz Gerstung and George S. Vassiliou looking at haematological cancers."
 url                      : https://josegcpa.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "josegcpa/josegcpa.github.io"
@@ -176,11 +176,18 @@ kramdown:
 # Collections
 collections:
   teaching:
+    permalink: /teaching/
     output: true
-    permalink: /:collection/:path/
-  publications:
+    
+  publications_previous:
+    permalink: /publications_previous/
     output: true
-    permalink: /:collection/:path/
+
+  publications_current:
+    permalink: /publications_current/
+    output: true
+
+collections_dir: collections
 
 # Defaults
 defaults:
