@@ -11,7 +11,7 @@ author_profile: true
 
 * [Computational studies of G protein-coupled receptor complexes: Structure and dynamics. Ozge Sensoy, **Jose Guilherme Almeida**, Javeria Shabbir, Irina S. Moreira and Giulia Morra. Methods in Cell Biology (2017)](https://www.sciencedirect.com/science/article/pii/S0091679X17301000)
 
-* [SpotOn: High Accuracy Identification of Protein-Protein Interface Hot-Spots. Irina S. Moreira, Panagiotis I. Koukos, Rita Melo, Jose G. Almeida, Antonio J. Preto, Joerg Schaarschmidt, Mikael Trellet, Zeynep H. Gumus, Joaquim Costa and Alexandre M. J. J. Bonvin. Scientific Reports (2017)](https://www.nature.com/articles/s41598-017-08321-2)
+* [SpotOn: High Accuracy Identification of Protein-Protein Interface Hot-Spots. Irina S. Moreira, Panagiotis I. Koukos, Rita Melo, **Jose G. Almeida**, Antonio J. Preto, Joerg Schaarschmidt, Mikael Trellet, Zeynep H. Gumus, Joaquim Costa and Alexandre M. J. J. Bonvin. Scientific Reports (2017)](https://www.nature.com/articles/s41598-017-08321-2)
 
 ### Reviews
 

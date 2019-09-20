@@ -10,7 +10,7 @@ redirect_from:
 
 # Research
 
-PhD student under [Moritz Gerstung's Computational Cancer Biology group](https://www.ebi.ac.uk/research/gerstung) and George Vassiliou, using data science to better understand haematological cancers. Currently using machine learning and deep learning to look at images of your blood. Currently invested in weird hobbies ranging from musical production to owning colourful socks.
+PhD student under [Moritz Gerstung](https://www.ebi.ac.uk/research/gerstung) and [George Vassiliou](https://www.sanger.ac.uk/people/directory/vassiliou-george-s), using data science to better understand haematological cancers. Currently using machine learning and deep learning to look at images of your blood. Currently invested in weird hobbies ranging from musical production to owning colourful socks.
 
 Previously and during my MsC. thesis, I worked in [Irina Moreira's Data-Driven Molecular Design group](http://www.moreiralab.com), focusing on applying machine-learning techniques to predict and understand protein-protein interactions at a structural level.
 
