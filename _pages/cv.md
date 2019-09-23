@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.Ssc. in Biochemistry, University of Coimbra, 2015
-* M.Ssc. in Cell and Molecular Biology (with a focus on neuroscience), University of Coimbra, 2017
-
+* BSc. in Biochemistry, University of Coimbra, 2015
+* MSc. in Cell and Molecular Biology (with a focus on neuroscience), University of Coimbra, 2017
+  * Award for exceptional school performance (2017)
+  
 Research experience
 ======
 * Summer 2014: Research Intern 
@@ -38,7 +39,7 @@ Research experience
   * Project: ODE models of the peroxiredoxin pathway in yeast using Wolfram Mathematica and COPASI
     * Supervisor: Armindo Salvador
 
-* May 2016 - September 2017: Research intern (Msc. thesis)
+* May 2016 - September 2017: Research intern (MSc. thesis)
   * **Center for Neuroscience and Cell Biology**
   * Project: use machine learning and computational tools to study the structure of protein complexes, with particular focus on their interface
     * Supervisor: Irina S. Moreira
