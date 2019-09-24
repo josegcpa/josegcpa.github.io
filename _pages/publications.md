@@ -13,6 +13,8 @@ author_profile: true
 
 ## Publications with current group (Gerstung Group @ EMBL-EBI)
 
+Nothing here for now, but this will change soon enough! 
+
 {% for post in site.publications_current reversed %}
   {% include archive-single.html %}
 {% endfor %}
