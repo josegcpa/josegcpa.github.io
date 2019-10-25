@@ -14,5 +14,5 @@ redirect_from:
 
 * Previously and during my MsC. thesis, I worked in [Irina Moreira's Data-Driven Molecular Design group](http://www.moreiralab.com), focusing on applying machine-learning techniques to predict and understand protein-protein interactions at a structural level
 
-* I am also a music producer as [Z G A](files/zga.md). I do mostly electronic music with no particular focus on subgenre, but I do have a penchant for IDM, industrial and/or hip-hop. I will soon be doing some releases, both solo and featuring colaborations (with DEL and SPASM). Follow me on [Facebook](https://www.facebook.com/ZGAZGAZGA/) to be the first to know when they are released
+* I am also a music producer as [Z G A](_pages/zga). I do mostly electronic music with no particular focus on subgenre, but I do have a penchant for IDM, industrial and/or hip-hop. I will soon be doing some releases, both solo and featuring colaborations (with DEL and SPASM). Follow me on [Facebook](https://www.facebook.com/ZGAZGAZGA/) to be the first to know when they are released
 
