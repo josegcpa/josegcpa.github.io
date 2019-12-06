@@ -5,7 +5,6 @@ author_profile: true
 permalink: /teaching/
 redirect_from:
   - /teaching/
-  - /about.html
 ---
 
 {% for post in site.teaching reversed %}
