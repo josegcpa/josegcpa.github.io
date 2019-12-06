@@ -2,8 +2,8 @@
 title: "Dynamical rearrangement of human epidermal growth factor receptor 2 upon antibody binding: effects on the dimerization"
 collection: publications_previous
 excerpt: "Using molecular dynamics to explore how HER2, an EGFR, is affected by antibody binding and how this might affect its dimerisation."
-venue: bioRxiv
-paperurl: "https://www.biorxiv.org/content/10.1101/752980v1.full"
+venue: Biomolecules
+paperurl: "https://www.mdpi.com/2218-273X/9/11/706"
 date: 2019-08-30
 ---
 
