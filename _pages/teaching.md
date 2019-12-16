@@ -6,5 +6,5 @@ permalink: /teaching/
 ---
 
 {% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
+  {% include archive-single-talk.html %}
 {% endfor %}
