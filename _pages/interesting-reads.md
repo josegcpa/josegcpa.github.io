@@ -7,8 +7,6 @@ author_profile: false
 
 {% include base_path %}
 
-# Interesting conversations/interviews/texts I came across
-
 ## Interviews/conversations
 
 * [Conversation between Foucault and Derrida](https://libcom.org/library/intellectuals-power-a-conversation-between-michel-foucault-and-gilles-deleuze)
