@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Interesting conversations/interviews/texts I came across"
+permalink: /interesting-reads/
+author_profile: false
+---
+
+{% include base_path %}
+
 # Interesting conversations/interviews/texts I came across
 
 ## Interviews/conversations
