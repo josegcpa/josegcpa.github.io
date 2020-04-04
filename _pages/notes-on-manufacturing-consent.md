@@ -1,4 +1,11 @@
-# Manufacturing Consent
+---
+layout: archive
+title: "Manufacturing Consent"
+permalink: /interesting-reads/
+author_profile: false
+---
+
+{% include base_path %}
 
 *Edward S. Herman and Noam Chomsky*
 
