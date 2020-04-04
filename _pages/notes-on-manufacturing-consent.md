@@ -1,8 +1,7 @@
 ---
 layout: archive
 title: "Manufacturing Consent"
-permalink: /interesting-reads/
-author_profile: false
+permalink: /manufacturing-consent/
 ---
 
 {% include base_path %}
