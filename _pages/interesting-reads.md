@@ -19,6 +19,14 @@ author_profile: false
 
     * Here, Derrida has a very pleasant talk with Ornette Coleman. They talk about Coleman's past as a black saxophone player from the South witnessing and experiencing violence while developing his own musical style and concept after being ostracized. They also dedicate some time to talk about Coleman's process in writing and playing music for and with other people, as well as how concepts such as globalization are flawed because they always assume a Westernised version of it
 
-* [Kodwo Eshun- Motion Capture](http://www.ccru.net/swarm1/1_motion.htm?LMCL=VcqAt4)
+## Articles and essays
+
+* [Kodwo Eshun - Motion Capture](http://www.ccru.net/swarm1/1_motion.htm?LMCL=VcqAt4)
 
    * Super cool text by Eshun where he goes from black sci-fi and black music to discussing a book he will write on scratchedelia as science, devoided of the biographical/social/political implications. By talking about this possibility he ends up spilling the beans on a bunch of what the book would cover and goes into his own vision on scratch - a kind of motion capture, where you temporarily lift the human element from the music and give it back shortly after creating a textural rather than rhythmic effect, a completely new type of musical instrument and science. He goes on to discuss the usage of samples in music as this short moment (samplers were not very capable in the late 90s) that helps create synaesthesic experiences by overflowing the hearing apparatus and creating this omnisensorial experience. I cannot really summarise this without saying everything, he talks about A LOT of different topics so reading it is really the way to go
+
+## Reviews
+
+* [Greg Tate - Yo Hermeneutics!: Henry Louis Gates, Houston Baker, and David Toop](https://monoskop.org/images/a/a3/Tate_Greg_1992_Yo_Hermeneutics_Henry_Louis_Gates_Houston_Baker_David_Toop.pdf)
+
+The comprehensive 1985 review by Greg Tate on Henry Louis Gates's *Black Literature and Literary Theory*, where he contextualises the book and addresses its strong points of presenting essays that better formalise black literature from a critical theory perspective - Tate considers this language a necessary element in allowing black literary theory to permeate the ivory tower academic world, but it admits that it leads to the theory drifting away from the real world. More importantly, it also places it in context with other writings by Houston Baker, congregating both as a static appreciation of black culture - this leads to ignoring a lot of the more futuristic movement happening at the time, mostly associated with hip hop culture, opposing it to what David Toop had already done with "Rap Attack" and other previous writings.
