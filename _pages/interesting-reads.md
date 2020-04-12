@@ -24,6 +24,11 @@ permalink: /interesting-reads/
 
    * Super cool text by Eshun where he goes from black sci-fi and black music to discussing a book he will write on scratchedelia as science, devoided of the biographical/social/political implications. By talking about this possibility he ends up spilling the beans on a bunch of what the book would cover and goes into his own vision on scratch - a kind of motion capture, where you temporarily lift the human element from the music and give it back shortly after creating a textural rather than rhythmic effect, a completely new type of musical instrument and science. He goes on to discuss the usage of samples in music as this short moment (samplers were not very capable in the late 90s) that helps create synaesthesic experiences by overflowing the hearing apparatus and creating this omnisensorial experience. I cannot really summarise this without saying everything, he talks about A LOT of different topics so reading it is really the way to go
 
+* [Lorenzo Kom'boa Ervin - Anarchist vs. Marxist-Leninist Thought on the Organization of Society
+](https://libcom.org/library/anarchist-vs--leninist-lorenzo-ervin)
+
+   * Very nice essay explicating the concrete differences between Marxist-Leninism and anarcho-communism. Lorenzo does a tremendously good work at really demystifying the false notions of anarchism as purely chaotic and as a perverse reading of Bakunin, and introduces its proper configuration given an anarco-syndicalist setting. It also bashes Lenin's vanguardism for what it was: a cruel step in a slow process to an idealised world which ended up as being the final version of what is commonly perceived as communism - a tiranny of the Bolsheviks over the working class portrayed as a dictatorship of the proletariat. Obviously Lorenzo's text does not stand as a criticism of what vanguardism achieved socially in several different places - rather, it critically analyses claims about the nature of this "dictatorship of the proletariat" in order to expose it as a farce covering the brutal vanguardist authoritarianism  
+
 ## Reviews
 
 * [Greg Tate - Yo Hermeneutics!: Henry Louis Gates, Houston Baker, and David Toop](https://monoskop.org/images/a/a3/Tate_Greg_1992_Yo_Hermeneutics_Henry_Louis_Gates_Houston_Baker_David_Toop.pdf)
