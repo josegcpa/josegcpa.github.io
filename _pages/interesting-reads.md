@@ -17,6 +17,10 @@ permalink: /interesting-reads/
 * [Derrida interviewing Ornette Coleman](http://www.ubu.com/papers/Derrida-Interviews-Coleman_1997.pdf)
 
     * Here, Derrida has a very pleasant talk with Ornette Coleman. They talk about Coleman's past as a black saxophone player from the South witnessing and experiencing violence while developing his own musical style and concept after being ostracized. They also dedicate some time to talk about Coleman's process in writing and playing music for and with other people, as well as how concepts such as globalization are flawed because they always assume a Westernised version of it
+    
+* [On alienation, the Situationists and everyday revolution - Houssine Alloul interviews Raoul Vaneigem](https://roarmag.org/essays/on-alienation-the-situationists-and-everyday-revolution/)
+
+    * In this short but comprehensive interview to legendary Situationist Raoul Vaneigem, topics as varied as the modern partisan left and its decay into bureaucratic and clientelic modes of operation that eroded working-class conscience, contemporary revolutionary movements (particularly the *Gilet-Jaunes*) and its relation to previous movements (the 1968 ocupy movement), Belgium's own colonial legacy and how it is currently facing it alongside extremist right-wing movements, and even the Situationist International's own intellectualism and how its utility to the masses became questionable by creating an exclusivist environment within its own ranks
 
 ## Articles and essays
 
