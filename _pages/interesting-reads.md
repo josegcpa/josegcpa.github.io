@@ -59,6 +59,10 @@ permalink: /interesting-reads/
 
    * I have never read a work by Orwell, partly because it feels redundant - his better known works (_1984_ and _Animal Farm_) are constantly referenced in the media so having some knowledge on them is essential at this point, but saw on Twitter someone recommending that **the** Orwell work that sould be read was this short essay, "Shooting an Elephant". Written in 1936, it tells of how Orwell, when he was a sub-divisional police officer in lower Burma during the British Raj, had to shoot an elephant-gone-wild. While the action itself is fairly unremarkable, the portrait that Orwell paints denounces the one "burden" (heavy quotations mark on this) of the coloniser - he ended up shooting the elephant not because he saw in it any imminent danger, but because he did not want to appear weak or foolish. Orwell denounces himself, saying that he was glad that the elephant had killed a man so that he, in the end, could justify his actions from a legal standpoint. It beautifully summarises a twisted aspect of the coloniser's mentality - in exchange for the life of one who was under colonialism, the colonizer was granted the right to shoot an animal to avoid the appearance of weakness; the coloniser effectively exchanged life for his higher place in a hierarchy of systemic oppression.
 
+* [CasteWatchUK - How is caste discrimination different from racism?](https://www.runnymedetrust.org/blog/what-is-caste)
+
+   * As a white person, it can be complicated to correctly assess how different oppressions targetting non-white folks interact and it quickly becomes appealing to create analogies between different oppressions. Pieces like this one help me realise how this amounts to false equivalences. The way oppressors - such as white people - conveniently clump all opressions together amounts to nothing but an incorrectly constructed assumption that all forms of oppression are interchangeable.
+   
 ## Reviews
 
 * [Greg Tate - Yo Hermeneutics!: Henry Louis Gates, Houston Baker, and David Toop](https://monoskop.org/images/a/a3/Tate_Greg_1992_Yo_Hermeneutics_Henry_Louis_Gates_Houston_Baker_David_Toop.pdf)
