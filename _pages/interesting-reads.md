@@ -63,6 +63,10 @@ permalink: /interesting-reads/
 
    * As a white person, it can be complicated to correctly assess how different oppressions targetting non-white folks interact and it quickly becomes appealing to create analogies between different oppressions. Pieces like this one help me realise how this amounts to false equivalences. The way oppressors - such as white people - conveniently clump all opressions together amounts to nothing but an incorrectly constructed assumption that all forms of oppression are interchangeable.
    
+* [Daron Acemoğlu, James Robinson - The economic impact of colonialism](https://voxeu.org/article/economic-impact-colonialism)
+
+   * It is quite nice to see these kinds of articles pop up as a complement to the study of post-colonialism and its more theoretical fundaments. In a very quantiative, the authors show how different factors imposed by colonial powers impacted the development of post-colonial societies.
+   
 ## Reviews
 
 * [Greg Tate - Yo Hermeneutics!: Henry Louis Gates, Houston Baker, and David Toop](https://monoskop.org/images/a/a3/Tate_Greg_1992_Yo_Hermeneutics_Henry_Louis_Gates_Houston_Baker_David_Toop.pdf)
