@@ -15,5 +15,5 @@ Blog-like posts in both Portuguese and English. They *will* have a tendency to b
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% include archive-single.html %}
+  {% include archive-post.html %}
 {% endfor %}

@@ -2,6 +2,7 @@
 title: 'Ferramenta para analisar sondagens'
 collection: blog_posts
 date: 2020-08-26
+excerpt: ""
 url: https://zegui7.shinyapps.io/B-A-BA-Sondagens/
 ---
 

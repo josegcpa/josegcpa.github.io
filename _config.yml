@@ -190,6 +190,7 @@ collections:
   posts:
     permalink: /posts/
     output: true
+  
   blog_posts:
     permalink: /blog_posts/
     output: true
@@ -209,7 +210,7 @@ defaults:
   # _blog_posts
   - scope:
       path: ""
-      type: blog_posts
+      type:blog_posts
     values:
       layout: single
       author_profile: true
