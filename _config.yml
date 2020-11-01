@@ -188,7 +188,7 @@ collections:
     output: true
 
   posts:
-    permalink: /year-archive/
+    permalink: /posts/
     output: true
 
 collections_dir: collections
