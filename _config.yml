@@ -187,6 +187,10 @@ collections:
     permalink: /publications_current/
     output: true
 
+  posts:
+    permalink: /year-archive/
+    output: true
+
 collections_dir: collections
 
 # Defaults
