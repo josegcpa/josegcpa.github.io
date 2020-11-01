@@ -86,7 +86,8 @@ Talks
 ======
   * A Machine Learning Based Protein-Protein Hot-Spot Prediction Method - SpotOn. EJIBCE. Lisbon. (2016)
   * Using big-data to understand the protein interface landscape. EJIBCE. Coimbra. (2017)
-  
+  * Leveraging Automated Blood Cell Morphology for Myelodysplastic Syndrome Diagnosis and Prognosis Prediction. Quantitative BioImaging Conference (2020)
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
@@ -96,7 +97,7 @@ Teaching
 Service and leadership
 ======
 * Co-founder of JEST, a junior enterprise focused on providing data science training
-* Co-director of programming in Radio Universidade de Coimbra, a student-ran radio
+* Co-director of programming and radio broadcaster in Radio Universidade de Coimbra, a student-ran radio
 * Integrated several teams in student unions, with a particular interest in pedagogy and ecological and civil service
 
 Other skills
