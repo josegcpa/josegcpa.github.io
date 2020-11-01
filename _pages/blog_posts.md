@@ -8,6 +8,6 @@ author_profile: true
 Blog-like posts in both Portuguese and English. They *will* have a tendency to be quite miscellaneous.
 
 {% include base_path %}
-{% for post in site.blog_posts %}
+{% for post in site.blog_posts reversed %}
   {% include archive-post.html %}
 {% endfor %}
