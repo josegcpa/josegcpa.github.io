@@ -190,6 +190,9 @@ collections:
   posts:
     permalink: /posts/
     output: true
+  blog_posts:
+    permalink: /blog_posts/
+    output: true
 
 collections_dir: collections
 
@@ -199,6 +202,14 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _blog_posts
+  - scope:
+      path: ""
+      type: blog_posts
     values:
       layout: single
       author_profile: true
