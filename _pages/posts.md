@@ -5,7 +5,7 @@ title: "Posts"
 author_profile: true
 ---
 
-For now you are the only one here.
+Blog-like posts in both Portuguese and English. They *will* have a tendency to be quite miscellaneous.
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
