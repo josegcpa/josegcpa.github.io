@@ -210,7 +210,7 @@ defaults:
   # _blog_posts
   - scope:
       path: ""
-      type:blog_posts
+      type: blog_posts
     values:
       layout: single
       author_profile: true
