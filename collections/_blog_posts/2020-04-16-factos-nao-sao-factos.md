@@ -1,6 +1,6 @@
 ---
 title: '"Factos" nao sao factos - um caso pratico de desinformacao baseado em "ciencia"'
-collection: publications_previous
+collection: blog_posts
 date: 2020-04-16
 posturl: https://josegcpa.ml/_pages/Factosnosofactosumcasoprticodedesinformao
 ---
