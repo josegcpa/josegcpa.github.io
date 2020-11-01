@@ -85,7 +85,7 @@ author:
   bio              : "Dreaming of electric sheep."
   location         : "Cambridge, United Kingdom"
   employer         : "EMBL-EBI"
-  pubmed           : ""
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=4u2Ht8AAAAAJ&hl=en"
   email            :
   researchgate     :  "https://www.researchgate.net/profile/Jose_Guilherme_Almeida"
@@ -203,7 +203,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      share: true
+      #share: true
   # _pages
   - scope:
       path: ""
