@@ -3,6 +3,7 @@ title: '"Factos" nao sao factos - um caso pratico de desinformacao baseado em "c
 collection: blog_posts
 date: 2020-04-16
 excerpt: ""
+permalink: /blog_posts/factos-nao-sao-fatos
 url: https://josegcpa.ml/_pages/Factosnosofactosumcasoprticodedesinformao
 ---
 
