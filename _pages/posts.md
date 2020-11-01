@@ -9,5 +9,5 @@ Blog-like posts in both Portuguese and English. They *will* have a tendency to b
 
 {% include base_path %}
 {% for post in site.posts %}
-  {% include archive-single.html %}
+  {% include archive-post.html %}
 {% endfor %}
