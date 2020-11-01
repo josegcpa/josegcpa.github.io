@@ -1,10 +1,8 @@
 ---
 layout: archive
-permalink: /year-archive/
-title: "Blog posts"
+permalink: /posts/
+title: "Posts"
 author_profile: true
-redirect_from:
-  - /wordpress/blog-posts/
 ---
 
 For now you are the only one here.
