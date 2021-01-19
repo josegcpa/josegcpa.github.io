@@ -4,6 +4,8 @@ title: "Interesting conversations/interviews/texts I came across"
 permalink: /interesting-reads/
 ---
 
+*There is no particular order to any of this.*
+
 {% include base_path %}
 
 ## Interviews/conversations
@@ -66,6 +68,10 @@ permalink: /interesting-reads/
 * [Daron Acemoğlu, James Robinson - The economic impact of colonialism](https://voxeu.org/article/economic-impact-colonialism)
 
    * It is quite nice to see these kinds of articles pop up as a complement to the study of post-colonialism and its more theoretical fundaments. In a very quantiative, the authors show how different factors imposed by colonial powers impacted the development of post-colonial societies.
+
+* [Arundhati Roy - Come September](https://www.youtube.com/watch?v=ET7I9jvP4Ic)
+    
+    * An intense speech offered by Arundhati Roy in September 2002 in the Lannan foundation. It heavily criticises the standards that exonerate the US from its consistent and acritical warmongering, while holding a mirror to the colonial mission of globalization and its many, many disguises. Nationalism is discussed as it is often used in modern discourse - as a blanket term to encapsulate hatred, racism and xenophobia in "civilizing" missions, while the chasm dividing classes are tackled. All of this is done with the most elegant of prose, in the most lyrical of sentiment and cadence. Truly one of the great speeches I have seen in my life.
    
 ## Reviews
 

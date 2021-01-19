@@ -11,7 +11,7 @@ Durante o inicio da pandemia e confinamentos associados a covid-19, houve bastan
 
 <u><a href="https://josegcpa.ml/_pages/Factosnosofactosumcasoprticodedesinformao">Esse post pode ser encontrado aqui</a></u>.
 
-===
+---
 
 Over the beginning of the covid-19 pandemic and its respective confinements, there was plenty of disinformation going around. For one of these "disinformation samples" I wrote an article that analysed the statements from a critical perspective and questioned their validity and usefulness.
 

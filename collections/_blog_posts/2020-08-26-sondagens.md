@@ -11,8 +11,8 @@ Quanto mais perto das eleicoes estamos mais sondagens vemos. Contudo, as flutuac
 
 <u><a href="https://zegui7.shinyapps.io/B-A-BA-Sondagens/">Podem consultar essa ferramenta aqui!</a></u>
 
-===
+---
 
-The more we approach ellections, the more polls we see. However, the fluctuations presented in them are often nothing more than sampling artefacts - estimating voting intentions for an entire country from a sample is likely to lead to uncertain estimates. I developed a platform that is dedicated to explaining and analysing polls for those eager to learn more about how these processes work and what they can mean.
+The closer we get to ellections, the more polls we are forced to contemplate. However, the fluctuations presented in them are often nothing more than sampling artefacts - estimating voting intentions for an entire country from a sample is likely to lead to uncertain estimates. I developed a platform that is dedicated to explaining and analysing polls for those eager to learn more about how these processes work and what they can mean.
 
 <u><a href="https://zegui7.shinyapps.io/B-A-BA-Sondagens/">You can access this platform here (only Portuguese is available - sorry!)!</a></u>
