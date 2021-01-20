@@ -9,7 +9,7 @@
 locale                   : "en-UK"
 title                    : "Jose Guilherme Almeida"
 title_separator          : "-"
-name                     : &name "Jose Guilherme Almeida"
+name                     : &name "Jose Guilherme de Almeida"
 description              : &description "Dreaming of electric sheep. PhD student with Moritz Gerstung and George S. Vassiliou looking at haematological cancers."
 url                      : https://josegcpa.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
