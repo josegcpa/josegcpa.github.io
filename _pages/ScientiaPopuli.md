@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Scientia Populi - As ciências do povo"
+author_profile: false
 permalink: /scientia-populi
 ---
 
