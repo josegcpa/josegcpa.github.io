@@ -27,28 +27,30 @@ Research experience
 * Spring/Summer 2015: Research Intern (BSc. final year project)
   * *Laboratory of Immunology and Oncology* - **Universidade de Coimbra**
   * **Project**: studying the differential expression of PD-1/PD-L1 in invidividuals suffering from chronic myeloid leukaemia using flow cytommetry
-    * Supervisor: Paulo Rodrigues Santos
+    * *Supervisor: Paulo Rodrigues Santos*
 
 * Winter 2016: Research Intern
   * *Biophysics Laboratory* - **Universidade de Coimbra**
   * **Project**: using a perfusion system to study how tolbutamide affects TEA-induced LTP, specifically regarding the release of zinc in the CA3 area of hippocampal slices
-    * Supervisor: Emilia Quintas-Ferreira
+    * *Supervisor: Emilia Quintas-Ferreira*
 
 * Spring 2016: Research intern
   * **Biocant**
   * Project: ODE models of the peroxiredoxin pathway in yeast using Wolfram Mathematica and COPASI
-    * Supervisor: Armindo Salvador
+    * *Supervisor: Armindo Salvador*
 
 * May 2016 - September 2017: Research intern (MSc. thesis)
   * **Center for Neuroscience and Cell Biology**
-  * Project: use machine learning and computational tools to study the structure of protein complexes, with particular focus on their interface
-    * Supervisor: Irina S. Moreira
+  * Project: using machine learning and computational tools to study the structure of protein complexes, with a particular focus on their interface
+    * *Supervisor: Irina S. Moreira*
 
 * October 2017 - present: PhD student
   * **European Bioinformatics Institute**
-  * Project: leveraging modern computer vision (with a particular focus on deep learning) to understand morphological differences in blood cells, with a focus on haematological cancers/clonal haematopoiesis
-    * Supervisor: Moritz Gerstung
-    * Co-supervisor: George S. Vassiliou
+  * Projects: 
+    * Leveraging modern computer vision (with a particular focus on deep learning) to understand morphological differences in blood cells, with a focus on haematological cancers
+    * Using longitudinal sequencing data and statistical modelling to capture the dynamics of somatic mutation evolution in individuals with clonal haematopoiesis
+    * *Supervisor: Moritz Gerstung*
+    * *Co-supervisor: George S. Vassiliou*
 
 Publications
 ======
@@ -70,11 +72,12 @@ Skills
     * `C++` - beginner, currently learning
 * Deep learning
   * *A considerable part of my current work focuses on developing, implementing and using deep learning architectures for classification/segmentation*
-  * Relevant packages: `tensorflow` (`Python`)
+  * Relevant packages: `tensorflow` (`Python`), `pytorch` (`Python`)
 * Machine learning
   * Relevant packages: `scikit-learn` (`Python`), `caret` (`R`) 
 * Computer vision
-  * Relevant packages: `opencv`, `scikit-image` (`Python`)
+  * Relevant packages: `opencv`, `scikit-image` (`Python`) 
+* Statistical analysis
 
 Language Skills
 =====
