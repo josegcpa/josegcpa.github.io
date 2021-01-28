@@ -84,9 +84,12 @@ Language Skills
 
 Talks
 ======
-  * A Machine Learning Based Protein-Protein Hot-Spot Prediction Method - SpotOn. EJIBCE. Lisbon. (2016)
-  * Using big-data to understand the protein interface landscape. EJIBCE. Coimbra. (2017)
-  * Leveraging Automated Blood Cell Morphology for Myelodysplastic Syndrome Diagnosis and Prognosis Prediction. Quantitative BioImaging Conference (2020)
+  * **Oral presentations**
+    * A Machine Learning Based Protein-Protein Hot-Spot Prediction Method - SpotOn. EJIBCE. Lisbon. (2016)
+    * Using big-data to understand the protein interface landscape. EJIBCE. Coimbra. (2017)
+    * Leveraging Automated Blood Cell Morphology for Myelodysplastic Syndrome Diagnosis and Prognosis Prediction. Quantitative BioImaging Conference. Oxford. (2020)
+  * **Poster presentations**
+    * The Natural History of Clonal Haematopoiesis. CRUK Cambridge Centre Early Detection Programme 6th Annual Symposium. Cambridge (2021)
 
 Teaching
 ======
