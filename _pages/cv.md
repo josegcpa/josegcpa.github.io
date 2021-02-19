@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* BSc. in Biochemistry, University of Coimbra, 2015
-* MSc. in Cell and Molecular Biology (with a focus on neuroscience), University of Coimbra, 2017
+* BSc in Biochemistry, University of Coimbra, 2012-2015
+* MSc in Cell and Molecular Biology (with a neurosciences specialisation), University of Coimbra, 2015-2017
   * Award for exceptional school performance (2017)
+* PhD in Biological Sciences, European Bioinformatics Institute/University of Cambridge, 2017-2021 (ongoing)
   
 Research experience
 ======
@@ -48,6 +49,7 @@ Research experience
   * **European Bioinformatics Institute**
   * Projects: 
     * Leveraging modern computer vision (with a particular focus on deep learning) to understand morphological differences in blood cells, with a focus on haematological cancers
+        * Experience with high-throughput automatic slide scanners, particularly the Hammamatsu Nano Zoomer
     * Using longitudinal sequencing data and statistical modelling to capture the dynamics of somatic mutation evolution in individuals with clonal haematopoiesis
     * *Supervisor: Moritz Gerstung*
     * *Co-supervisor: George S. Vassiliou*
@@ -68,10 +70,10 @@ Skills
   * Relevant languages
     * `Python` - advanced user
     * `R` - advanced user
-    * `bash` - enough to competent and efficiently use the command line
+    * `bash` - regular user
     * `C++` - beginner, currently learning
   * Deep learning (DL)
-    * *A considerable part of my current work focuses on developing, implementing and using deep learning architectures for classification/segmentation*
+    * *A considerable part of my current work focuses on developing, implementing and using deep learning tools for classification/segmentation*
     * Relevant packages: `tensorflow` (`Python`), `pytorch` (`Python`)
   * Machine learning (ML)
     * Relevant packages: `scikit-learn` (`Python`), `caret` (`R`) 
