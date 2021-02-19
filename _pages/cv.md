@@ -86,6 +86,15 @@ Skills
   * Supervised and unsupervised machine learning, with a particular focus on the former for the classification of hot-spots in protein-protein interfaces and haematologic disorders using whole blood slide imaging data
   * Development of a framework for multiple instance and vocabulary learning approach to create a "vocabulary of cells" for the classification of haematologic disorders
 
+* Data visualisation
+  * I work mainly with `ggplot2` and have also worked with `plotly` in `R`, mostly using these for scientific figure design
+  * Very basic `d3.js` knowledge
+
+* Web platform design and implementation
+  * I have developed a few platforms (such as this website) and other projects such as:
+    * A platform dedicated to poll data visualisation, education and interpretation ([here](https://zegui7.shinyapps.io/B-A-BA-Sondagens/) - this is available only in Portuguese)
+    * Early work on a [DxR-G-protein/Arrestin interaction visualiser](http://www.moreiralab.com/resources/dxr/) that was done for a [publication](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00371)
+
 Language Skills
 =====
   * Portuguese - proficient 
@@ -107,13 +116,15 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service, collaboration and leadership
 ======
-* Co-founder of JEST, a junior enterprise focused on providing data science training
-* Co-director of programming and radio broadcaster in Radio Universidade de Coimbra, a student-ran radio dedicated to teaching radio broadcasting to the general community
-* Integrated several teams in student unions, with a particular interest in pedagogy and ecological and civil service
+* Co-founder of JEST, a junior enterprise focused on providing data science training and services (2016)
+* Co-director of programming and radio broadcaster in Radio Universidade de Coimbra, a student-ran radio dedicated to teaching radio broadcasting to the general community, where I helped coordinating the department that is responsible for the musical and entertainment content (2016-2017)
+* Stage director and manager of Palco RUC, an alternative music festival. In this role I contacted several tens of artists and coordinated their arrivals and departures, coordinated a team of chaperones that looked out for the performers, and planned/arranged whatever was required for each performance (2016)
+* Integrated several teams in student unions, where I helped reformulate the curriculum for the Biochemistry BSc. in the University of Coimbra as a student representative in several meetings with professors and degree coordinatores and organised activities in the context of ecological and civil service sensibilisation (2013-2015)
 
 Other skills
 =====
+* Science communication, with regular contributions to [RNA Mensageiro](https://mrnauc.wordpress.com/), an annual biochemistry student and alumni magazine
 * Musical producer and member of a musical production collective, Ciga239, focused on artists with links to Coimbra
 * Raspberry pi tinkering
