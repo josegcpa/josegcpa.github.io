@@ -41,7 +41,7 @@ Research experience
 
 * May 2016 - September 2017: Research intern (MSc. thesis)
   * **Center for Neuroscience and Cell Biology**
-  * Project: using machine learning and computational tools to study the structure of protein complexes, with a particular focus on their interface
+  * Project: using machine learning and computational tools to study the structure of protein complexes, with a particular focus on their interface. Developed tools that improve the prediction of hot-spots in protein interfaces and computational protocols for complexes with no known structure
     * *Supervisor: Irina S. Moreira*
 
 * October 2017 - present: PhD student
@@ -64,20 +64,25 @@ Publications
 Skills
 ======
 * Programming 
-  * *I have been programming actively for 3 years now, with a quite large focus on machine learning and statistics/data science*
+  * *I have been programming actively for 4 years, with a quite large focus on machine learning, statistics and data science
   * Relevant languages
     * `Python` - advanced user
     * `R` - advanced user
     * `bash` - enough to competent and efficiently use the command line
     * `C++` - beginner, currently learning
-* Deep learning
-  * *A considerable part of my current work focuses on developing, implementing and using deep learning architectures for classification/segmentation*
-  * Relevant packages: `tensorflow` (`Python`), `pytorch` (`Python`)
-* Machine learning
-  * Relevant packages: `scikit-learn` (`Python`), `caret` (`R`) 
-* Computer vision
-  * Relevant packages: `opencv`, `scikit-image` (`Python`) 
-* Statistical analysis
+  * Deep learning (DL)
+    * *A considerable part of my current work focuses on developing, implementing and using deep learning architectures for classification/segmentation*
+    * Relevant packages: `tensorflow` (`Python`), `pytorch` (`Python`)
+  * Machine learning (ML)
+    * Relevant packages: `scikit-learn` (`Python`), `caret` (`R`) 
+  * Computer vision (CV)
+    * Relevant packages: `opencv`, `scikit-image` (`Python`)
+
+* Statistical analysis and data science
+  * Application of both frequentist and Bayesian methods for inferential and predictive statistics
+  * Development of approaches to disentangle the effects of different factors in specific problems, namely modelling longitudinal deep and targetted sequencing data
+  * Supervised and unsupervised machine learning, with a particular focus on the former for the classification of hot-spots in protein-protein interfaces and haematologic disorders using whole blood slide imaging data
+  * Development of a framework for multiple instance and vocabulary learning approach to create a "vocabulary of cells" for the classification of haematologic disorders
 
 Language Skills
 =====
@@ -103,9 +108,10 @@ Teaching
 Service and leadership
 ======
 * Co-founder of JEST, a junior enterprise focused on providing data science training
-* Co-director of programming and radio broadcaster in Radio Universidade de Coimbra, a student-ran radio
+* Co-director of programming and radio broadcaster in Radio Universidade de Coimbra, a student-ran radio dedicated to teaching radio broadcasting to the general community
 * Integrated several teams in student unions, with a particular interest in pedagogy and ecological and civil service
 
 Other skills
 =====
-* Musical production
+* Musical producer and member of a musical production collective, Ciga239, focused on artists with links to Coimbra
+* Raspberry pi tinkering
