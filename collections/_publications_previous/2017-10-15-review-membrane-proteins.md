@@ -4,7 +4,7 @@ collection: publications_previous
 excerpt: "Very comprehensive overview on the methodology used to study membrane proteins computationally."
 venue: Biochimica et Biophysica Acta (BBA) - Biomembranes
 paperurl: "https://www.sciencedirect.com/science/article/pii/S000527361730233X"
-date: 2019-08-08
+date: 2017-10-01
 ---
 
 See paper <u><a href="{{page.paperurl}}">here</a></u>!

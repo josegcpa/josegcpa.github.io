@@ -4,7 +4,7 @@ collection: publications_previous
 excerpt: "Review on computational methods to understand how GPCRs can be leveraged in drug design for Parkinson's disease."
 venue: Current Neuropharmacology
 paperurl: "http://www.eurekaselect.com/160335/article"
-date: 2019-08-08
+date: 2018-06-08
 ---
 
 See paper <u><a href="{{page.paperurl}}">here</a></u>!

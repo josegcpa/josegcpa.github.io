@@ -4,7 +4,7 @@ collection: publications_previous
 excerpt: "Comprehensive review focusing on the structural aspect of antiretroviral compounds used to treat paediatric HIV."
 venue: Current Medicinal Chemistry
 paperurl: "http://www.eurekaselect.com/165112/article"
-date: 2018-04-08
+date: 2020-03-16
 ---
 
 See paper <u><a href="{{page.paperurl}}">here</a></u>!

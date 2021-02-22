@@ -4,7 +4,7 @@ collection: publications_previous
 excerpt: "My first ever publication, studying how tolbutamide affects TEA-induced LTP in the hippocampal mossy fiber-CA3 synapses via zinc fluorescence."
 venue: Canadian Journal of Physiology and Pharmacology 
 paperurl: "https://www.nrcresearchpress.com/doi/10.1139/cjpp-2016-0379"
-date: 2019-08-08
+date: 2017-06-27
 ---
 
 See paper <u><a href="{{page.paperurl}}">here</a></u>!
