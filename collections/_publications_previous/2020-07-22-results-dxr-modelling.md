@@ -4,7 +4,7 @@ collection: publications_previous
 excerpt: "A description of a computational protocol that can be used for structural GPCR-G-protein and GPCR-arrestin complexes modelling and its application to the dopamine receptor family."
 venue: Journal of Chemical Information and Modeling
 paperurl: "https://pubs.acs.org/doi/10.1021/acs.jcim.0c00371"
-date: 2019-08-30
+date: 2020-07-21
 ---
 
 See paper <u><a href="{{page.paperurl}}">here</a></u>!
