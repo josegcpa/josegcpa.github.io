@@ -56,12 +56,16 @@ Research experience
 
 Publications
 ======
-  <ul>{% for post in site.publications_previous %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   <ul>{% for post in site.publications_current %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+  <ul>{% for post in site.publications_previous %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+* Non-scientific publications
+    * [BAME and COVID-19](https://www.scientistsforlabour.org.uk/post/bame-and-covid-19), Scientists for Labour (2020) - a detailed assessment of the disproportionate impact of COVID-19 on individuals with a BAME background in the UK
 
 Skills
 ======
