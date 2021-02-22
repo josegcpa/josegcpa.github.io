@@ -56,11 +56,11 @@ Research experience
 
 Publications
 ======
-  <ul>{% for post in site.publications_current %}
+  <ul>{% for post in site.publications_current reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-  <ul>{% for post in site.publications_previous %}
+  <ul>{% for post in site.publications_previous reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -116,7 +116,7 @@ Talks
 
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
