@@ -1,5 +1,5 @@
 ---
-title: "SpotOn: High Accuracy Identification of Protein-Protein Interface Hot-Spots."
+title: "SpotOn: High Accuracy Identification of Protein-Protein Interface Hot-Spots"
 collection: publications_previous
 excerpt: "State of the art method to predict hot-spots using protein complex structure and sequence information and ensemble machine-learning."
 paperurl: "https://www.nature.com/articles/s41598-017-08321-2"

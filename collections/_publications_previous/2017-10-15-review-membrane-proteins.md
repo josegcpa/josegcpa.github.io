@@ -1,5 +1,5 @@
 ---
-title: "Membrane proteins structures: A review on computational modeling tools."
+title: "Membrane proteins structures: A review on computational modeling tools"
 collection: publications_previous
 excerpt: "Very comprehensive overview on the methodology used to study membrane proteins computationally."
 venue: Biochimica et Biophysica Acta (BBA) - Biomembranes

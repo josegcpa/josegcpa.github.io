@@ -15,9 +15,8 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <li>
-    <h3 class="archive__item-title" itemprop="headline">
+    class="archive__item-title" itemprop="headline">
       <a href="{{ post.paperurl }}" rel="permalink">{{ title }}</a>, {{ post.venue }} ({{ post.date | date: "%Y" }})
-    </h3>
     </li>
  </article>
 </div>

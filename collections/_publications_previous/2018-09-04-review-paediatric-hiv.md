@@ -1,5 +1,5 @@
 ---
-title: "An overview of antiretroviral agents for treating HIV infection in paediatric population."
+title: "An overview of antiretroviral agents for treating HIV infection in paediatric population"
 collection: publications_previous
 excerpt: "Comprehensive review focusing on the structural aspect of antiretroviral compounds used to treat paediatric HIV."
 venue: Current Medicinal Chemistry

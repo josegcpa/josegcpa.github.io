@@ -70,7 +70,7 @@ Publications
 Skills
 ======
 * Programming 
-  * *I have been programming actively for 4 years, with a quite large focus on machine learning, statistics and data science
+  * I have been programming actively for 4 years, with a large focus on machine learning, statistics and data science
   * Relevant languages
     * `Python` - advanced user
     * `R` - advanced user
