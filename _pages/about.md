@@ -8,11 +8,30 @@ redirect_from:
   - /about.html
 ---
 
-* I am a Portuguese PhD researcher living in a world with little support for accents. I am interested (professionally) in deep learning and quantitative bioimaging and (non-professionally) in music production, contemporary art, reading, colourful socks and what I liberally call cooking
+# Bio
 
-* I currently work/study under [Moritz Gerstung](https://www.ebi.ac.uk/research/gerstung) and [George Vassiliou](https://www.sanger.ac.uk/people/directory/vassiliou-george-s), using data science/computer vision to better understand haematological cancers. Currently using machine learning and deep learning to look at images of blood and understand biologically relevant morphological differences
+I am currently wrapping up my PhD at the [European Bioinformatics Institute](https://www.ebi.ac.uk/) as an EMBL PhD fellow. I am jointly supervised by [Moritz Gerstung](https://www.ebi.ac.uk/research/gerstung) and [George Vassiliou](https://www.sanger.ac.uk/people/directory/vassiliou-george-s). Previously, I completed a Bachelor's degree in Biochemistry and a Master's degree in Cell and Molecular Biology with honours in the University of Coimbra. In my Master's thesis I worked with in [Irina Moreira's Data-Driven Molecular Design group](http://www.moreiralab.com).
 
-* Previously and during my MsC. thesis, I worked in [Irina Moreira's Data-Driven Molecular Design group](http://www.moreiralab.com), focusing on applying machine-learning techniques to predict and understand protein-protein interactions at a structural level
+# Research
 
-* I am also a music producer as [Z G A](_pages/zga). I do mostly electronic music with no particular focus on subgenre, but I do have a penchant for IDM, industrial and/or hip-hop. I will soon be doing some releases, both solo and featuring colaborations (with DEL and SPASM). Follow me on [Facebook](https://www.facebook.com/ZGAZGAZGA/) to be the first to know when they are released
+I currently work on computational oncobiology with a heavy focus on haematological cancers. My PhD project is divided into two distinct avenues:
 
+    1. The study and exploration of the morphological determinants of myelodysplastic syndromes in whole blood slides through the use of computer vision and machine learning and deep learning
+    2. The comprehensive assessment of clonal dynamics in clonal haematopoiesis through the use of longitudinal targetted sequencing and robust statistical methods such as MCMC
+
+Previously, during my MSc, my work focused on approaches based on machine-learning to predict important residues in protein-protein interfaces.
+
+# Relevant research experience
+
+**[2017,Present]** Cancer Data Science (Moritz Gerstung @ EMBL-EBI) - PhD fellow
+**[2016,2017]** Data-Driven Molecular Design (Irina Moreira @ CNC-UC) - MSc thesis
+
+Education
+[2017,present] PhD in Biological Sciences - University of Cambridge, UK
+Thesis: Computational studies of blood cells - morphology and evolution
+
+[2015,2017] MSc 
+Thesis: [Computational methods for the understanding of protein-based interactions](http://hdl.handle.net/10316/82909)
+
+[2012,2015] BSc Biochemistry - Autonomous University of Barcelona, ES
+Final project: Differential expression of PD-1/PD-L1 in individuals with chronic myeloid leukaemia 
