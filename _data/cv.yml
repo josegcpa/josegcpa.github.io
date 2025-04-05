@@ -13,28 +13,34 @@
   contents:
     - title: Programming
       items: 
-        - Python (advanced user), R (advanced user), C (beginner), Javascript (beginner)
-    - title: Machine-learning frameworks
+        - "Advanced/developer: `Python` and `R`"
+        - "Intermediate/hobbyust: `HTML`, `CSS`, `javascript`"
+        - "Beginner/learning: `C`"
+    - title: Machine-learning
       items:
-        - '"Traditional ML" - scikit-learn, caret'
-        - Deep learning - torch, lightning, tensorflow
+        - Tabular ML frameworks (`scikit-learn`, `caret`)
+        - Deep-learning frameworks (`torch`, `MONAI`, `lightning`, `huggingface`)
+    - title: Large language models
+      items:
+        - LLM chatbot/agentic frameworks with `langchain`/`ollama` and RAG-based applciations using `Chroma`/`Weave`
+        - Orchestration of workflows with OpenAI/Gemini/Anthropic/Ollama APIs
     - title: Computer-vision
       items:
-        - scikit-image, OpenCV, torchvision
+        - "`scikit-image`, `OpenCV`, `torchvision`"
     - title: Data science
       items:
         - frequentist methods (hypothesis testing, multivariate analyses)
         - Bayesian methods (MCMC)
-        - Data manipulation (`pandas`, `polars`)
+        - Data manipulation (`pandas`, `polars`, `tidyverse`)
     - title: Data visualization 
       items: 
-        - ggplot2 (R)
-        - d3.js (JavaScript)
+        - "`ggplot2` (`R`)"
+        - "`d3.js` (`javascript`)"
     - title: Workflow
       items:
-        - Version control (git)
-        - Containerisation (Docker)
-        - Workflow management (snakemake)
+        - Version control (`git`)
+        - Containerisation (`Docker`)
+        - Workflow management (`snakemake`)
 
 
 - title: Work experience
@@ -46,8 +52,8 @@
       description:
       - Development of supervised, semi-supervised and self-supervised deep-learning methods for clinical image classification and segmentation (CT, MRI)
       - Development of generative AI methods for data harmonization and synthetic data generation
-      - Automation of dataset and organization curation for large multi-centric datasets >10,000 radiology studies
-      - Training and supervision of BSc. and MSc. students
+      - Automation of dataset organization and curation for large multi-centric datasets >10,000 radiology studies
+      - Oversaw and trained BSc. and MSc. students
       - International collaboration with multiple research groups
 
     - title: Doctoral fellow
