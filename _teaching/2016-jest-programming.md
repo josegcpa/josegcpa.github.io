@@ -2,7 +2,7 @@
 title: "Workshops on introductory programming"
 collection: teaching
 permalink: /teaching/programming
-description: teaching university students about programming and data-viz in `python` and `R`
+description: teaching university students about programming and data-viz in python and R
 venue: "University of Coimbra"
 date: 2016-06-06
 location: "Coimbra"
