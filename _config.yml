@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: josegcpa
 gitlab_username:
-twitter_username: zga_aaa
+twitter_username: 
 linkedin_username: josegcpa
 scholar_userid: 4u2Ht8AAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
@@ -95,7 +95,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  The best way to reach me is via e-mail.
+  Reach me via e-mail if you want to know more.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
