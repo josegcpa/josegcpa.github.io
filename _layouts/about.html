@@ -63,7 +63,12 @@ layout: default
       <div>
         {% for hobby in page.hobbies %}
         {% if hobby.link %}
-        <a class="hobby-link" href="{{ hobby.link }}">
+        {% if hobby.link_external == true %}
+        {% assign target="_blank" %}
+        {% else %}
+        {% assign target="_self" %}
+        {% endif %}
+        <a class="hobby-link" href="{{ hobby.link }}" target="{{ target }}">
           <div class="hobby clickable-hobby">{{ hobby.title }}</div>
         </a>
         {% else %}
