@@ -6,21 +6,24 @@
 
 @font-face {
   font-family: $font-name;
-  src: url('../fonts/#{$font-name}/#{$font-name}.ttf') format('truetype');
+  src: url('../fonts/#{$font-name}/#{$font-name}-Regular.woff') format('woff'),
+       url('../fonts/#{$font-name}/#{$font-name}-Regular.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: $font-name;
-  src: url('../fonts/#{$font-name}/#{$font-name}-Italic.ttf') format('truetype');
+  src: url('../fonts/#{$font-name}/#{$font-name}-Italic.woff') format('woff'),
+       url('../fonts/#{$font-name}/#{$font-name}-Italic.woff2') format('woff2');
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: $title-font-name;
-  src: url('../fonts/#{$title-font-name}/#{$title-font-name}.ttf') format('truetype');
+  src: url('../fonts/#{$title-font-name}/#{$title-font-name}-Regular.woff') format('woff'),
+       url('../fonts/#{$title-font-name}/#{$title-font-name}-Regular.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
 }
@@ -849,6 +852,10 @@ footer {
   }
   .hobby-grid {
     grid-template-columns: auto;
+  }
+
+  figure {
+    max-width: none;
   }
 }
 
