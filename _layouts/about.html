@@ -7,13 +7,14 @@ layout: default
   <header class="post-header header-grid">
     <div>
       <h1 class="post-title">
-      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+        {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name
+        }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
       </h1>
     </div>
     <div>
       <h1>
         {% if page.emojis %}
-          {{ page.emojis }}
+        {{ page.emojis }}
         {% endif %}
       </h1>
     </div>
@@ -22,18 +23,18 @@ layout: default
   {% if page.profile -%}
   <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
     {%- if page.profile.image %}
-      {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+    {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-      {% if page.profile.image_circular %}
-        {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-      {% else %}
-        {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-      {% endif %}
+    {% if page.profile.image_circular %}
+    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+    {% else %}
+    {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+    {% endif %}
 
-      {% include figure.html 
-      path=profile_image_path 
-      class=profile_image_class
-      alt=page.profile.image -%}
+    {% include figure.html
+    path=profile_image_path
+    class=profile_image_class
+    alt=page.profile.image -%}
     {% endif -%}
     {%- if page.profile.address %}
     <div class="address">
@@ -46,12 +47,12 @@ layout: default
   <div class="clearfix">
     <p class="desc">
       {% if page.position %}
-        <strong>{{ page.position }}</strong> 
-        {% if page.place %}@ {{ page.place }}{% endif %}
+      <strong>{{ page.position }}</strong>
+      {% if page.place %}@ {{ page.place }}{% endif %}
       {% endif %}
       <br>
       {% if page.location %}
-        📍{{ page.location }}
+      📍{{ page.location }}
       {% endif %}
       {{ page.subtitle }}
     </p>
@@ -61,7 +62,13 @@ layout: default
       <div class="hobby-title">Hobbies:</div>
       <div>
         {% for hobby in page.hobbies %}
-        <div class="hobby">{{ hobby }}</div>
+        {% if hobby.link %}
+        <a class="hobby-link" href="{{ hobby.link }}">
+          <div class="hobby clickable-hobby">{{ hobby.title }}</div>
+        </a>
+        {% else %}
+        <div class="hobby">{{ hobby.title }}</div>
+        {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -73,13 +80,13 @@ layout: default
   <!-- Social -->
   <div class="social">
     <div class="contact-icons">
-    {% include social.html %}
+      {% include social.html %}
     </div>
 
     <div class="contact-note">
       {{ site.contact_note }}
     </div>
-    
+
   </div>
   {%- endif %}
 
