@@ -1,10 +1,10 @@
 ---
-layout: post
-title: data viz
-description: some minor data-viz projects I have worked on
-img: 
-importance: 2
-category: fun
+layout: page
+title: Data visualization projects
+description: Some minor data viz projects I have worked on
+author_profile: true
+sidebar: true
+tags: data-viz
 permalink: /data-viz
 ---
 
