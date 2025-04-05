@@ -103,6 +103,10 @@ blockquote {
   .card-title {
     color: var(--global-text-color);
   }
+  .card-description {
+    font-size: 1rem;
+    font-style: italic;
+  }
 
   .card-item {
     width: auto;
@@ -707,7 +711,7 @@ html.transition *:after {
 
 // Custom CSS
 .custom-grid {
-  grid-template-columns: repeat(2,  1fr);
+  grid-template-columns: 1fr;
   display: grid;
   gap: 10px;
   grid-auto-flow: dense;
@@ -719,6 +723,13 @@ html.transition *:after {
 
 .card:hover {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-no-hover:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.card-no-hover:active {
+  box-shadow: none;
 }
 
 .card:active {
@@ -767,11 +778,20 @@ html.transition *:after {
   color: var(--global-text-color);
   transition: all 0.2s ease-in-out;
   cursor: default;
-  
+}
+
+.clickable-hobby {
+  cursor: pointer;
+  color: var(--global-hover-color);
+
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  }  
+  } 
+}
+
+.hobby-link:hover {
+  text-decoration: none;
 }
 
 .badge-authorship {
@@ -831,6 +851,7 @@ footer {
     grid-template-columns: auto;
   }
 }
+
 @media (max-width: 650px) {
   .header-grid {
     grid-template-columns: 1fr;
