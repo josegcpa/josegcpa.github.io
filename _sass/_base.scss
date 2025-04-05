@@ -352,12 +352,7 @@ footer.sticky-bottom {
         background-color: transparent !important;
         color: var(--global-text-color) !important;
         border: 1px solid var(--global-text-color);
-        cursor: default;
-
-        &:hover {
-          transform: scale(1.05);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-        }  
+        cursor: default; 
       }
 
       .green-badge {
@@ -728,15 +723,15 @@ html.transition *:after {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
+.card:active {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
 .card-no-hover:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 .card-no-hover:active {
-  box-shadow: none;
-}
-
-.card:active {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .custom-card-body {
@@ -869,4 +864,36 @@ footer {
   .col-md-2 {
     display: block !important;
   }
+}
+
+.pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: #4285f4;
+  border-radius: .125rem;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear
+}
+
+.pagination .page-item.active .page-link:hover {
+  background-color: #4285f4
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #868e96
+}
+
+.pagination .page-item .page-link {
+  font-size: .9rem;
+  color: #212529;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear
+}
+
+.pagination.pagination-lg .page-item .page-link {
+  font-size: 1rem
 }
