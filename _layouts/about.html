@@ -4,48 +4,32 @@ layout: default
 
 <!-- about.html -->
 <div class="post">
-  <header class="post-header header-grid">
-    <div>
-      <h1 class="post-title">
-        {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name
-        }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-      </h1>
-    </div>
-    <div>
-      <h1>
-        {% if page.emojis %}
-        {{ page.emojis }}
+  <header class="header-grid">
+    <div class="profile-and-header-name">
+      <div class="profile">
+        {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+        {% if page.profile.image_circular %}
+        {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+        {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
         {% endif %}
-      </h1>
+
+        {% include figure.html
+        path=profile_image_path
+        class=profile_image_class
+        alt=page.profile.image -%}
+        {% endif -%}
+      </div>
+      <div class="header-name">
+        <h1 class="card-title">
+          {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name
+          }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+        </h1>
+      </div>
     </div>
-  </header>
-
-  {% if page.profile -%}
-  <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-    {%- if page.profile.image %}
-    {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-    {% if page.profile.image_circular %}
-    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-    {% else %}
-    {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-    {% endif %}
-
-    {% include figure.html
-    path=profile_image_path
-    class=profile_image_class
-    alt=page.profile.image -%}
-    {% endif -%}
-    {%- if page.profile.address %}
-    <div class="address">
-      {{ page.profile.address }}
-    </div>
-    {%- endif %}
-  </div>
-  {%- endif %}
-
-  <div class="clearfix">
-    <p class="desc">
+    <div class="desc">
       {% if page.position %}
       <strong>{{ page.position }}</strong>
       {% if page.place %}@ {{ page.place }}{% endif %}
@@ -55,7 +39,10 @@ layout: default
       📍{{ page.location }}
       {% endif %}
       {{ page.subtitle }}
-    </p>
+    </div>
+  </header>
+
+  <div class="clearfix">
     {{ content }}
     {% if page.hobbies %}
     <div class="hobby-grid">
