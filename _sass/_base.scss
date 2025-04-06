@@ -459,12 +459,18 @@ footer.sticky-bottom {
       padding: 0.2rem 0.2rem;
       color: var(--global-text-color-light);
     }
+
+    li {
+      .badge.active {
+        box-shadow: 0 4px 4px var(--global-theme-color);
+      }
+    }
   }
 }
 
 .badge {
   border-radius: 100px;
-  background-color: transparent !important;
+  background-color: transparent;
   color: var(--global-text-color) !important;
   border: $border-size solid var(--global-text-color);
   height: fit-content;
@@ -472,7 +478,8 @@ footer.sticky-bottom {
 }
 
 .badge:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);}
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 
 
 // Distill
