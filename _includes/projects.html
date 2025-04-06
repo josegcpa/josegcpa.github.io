@@ -16,4 +16,7 @@
         <p class="card-text">{{ project.content }}</p>
       </div>
     </div>
+    {% if project.redirect -%}
+  </a>
+  {% endif %}
 </div>
