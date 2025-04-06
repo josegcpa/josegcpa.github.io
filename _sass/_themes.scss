@@ -1,28 +1,67 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
- 
-:root {
-  --global-bg-color: #{$lavender};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$light-lavender};
 
+// Define Sass variables for light theme
+$light-global-bg-color: $lavender;
+$light-global-code-bg-color: $code-bg-color-light;
+$light-global-text-color: $black-color;
+$light-global-text-color-light: $grey-color;
+$light-global-theme-color: $purple-color;
+$light-global-hover-color: $purple-color;
+$light-global-footer-bg-color: $light-global-bg-color;
+$light-global-footer-text-color: $grey-color-light;
+$light-global-footer-link-color: $white-color;
+$light-global-distill-app-color: $grey-color;
+$light-global-divider-color: rgba(0,0,0,.2);
+$light-global-card-bg-color: $light-lavender;
+
+// Define Sass variables for dark theme
+$dark-global-bg-color: $dark-purple;
+$dark-global-code-bg-color: $code-bg-color-dark;
+$dark-global-text-color: $grey-color-light;
+$dark-global-text-color-light: $grey-color-light;
+$dark-global-theme-color: $light-purple-color;
+$dark-global-hover-color: $light-purple-color;
+$dark-global-footer-bg-color: $grey-color-light;
+$dark-global-footer-text-color: $grey-color-dark;
+$dark-global-footer-link-color: $black-color;
+$dark-global-distill-app-color: $grey-color-light;
+$dark-global-divider-color: #424246;
+$dark-global-card-bg-color: $not-so-dark-purple;
+
+// Size variables
+$size: 0.5em;
+$size-l: $size * 1.5;
+$size-xl: $size * 2.0;
+$size-xxl: $size * 2.5;
+$size-s: $size * 0.75;
+$size-xs: $size * 0.5;
+$size-xxs: $size * 0.25;
+$font-size: 1.2em;
+
+:root {
+  --global-bg-color: #{$light-global-bg-color};
+  --global-code-bg-color: #{$light-global-code-bg-color};
+  --global-text-color: #{$light-global-text-color};
+  --global-text-color-light: #{$light-global-text-color-light};
+  --global-theme-color: #{$light-global-theme-color};
+  --global-hover-color: #{$light-global-hover-color};
+  --global-footer-bg-color: #{$light-global-footer-bg-color};
+  --global-footer-text-color: #{$light-global-footer-text-color};
+  --global-footer-link-color: #{$light-global-footer-link-color};
+  --global-distill-app-color: #{$light-global-distill-app-color};
+  --global-divider-color: #{$light-global-divider-color};
+  --global-card-bg-color: #{$light-global-card-bg-color};
+
+  
   .fa-sun {
-    display : none;
+    display: none;
   }
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 
   .repo-img-light {
@@ -33,27 +72,29 @@
   }
 }
 
+
+// Dark theme styles
 html[data-theme='dark'] {
-  --global-bg-color: #{$dark-purple};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$light-purple-color};
-  --global-hover-color: #{$light-purple-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$not-so-dark-purple};
+  --global-bg-color: #{$dark-global-bg-color};
+  --global-code-bg-color: #{$dark-global-code-bg-color};
+  --global-text-color: #{$dark-global-text-color};
+  --global-text-color-light: #{$dark-global-text-color-light};
+  --global-theme-color: #{$dark-global-theme-color};
+  --global-hover-color: #{$dark-global-hover-color};
+  --global-footer-bg-color: #{$dark-global-footer-bg-color};
+  --global-footer-text-color: #{$dark-global-footer-text-color};
+  --global-footer-link-color: #{$dark-global-footer-link-color};
+  --global-distill-app-color: #{$dark-global-distill-app-color};
+  --global-divider-color: #{$dark-global-divider-color};
+  --global-card-bg-color: #{$dark-global-card-bg-color};
 
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
   .fa-moon {
-    display : none;
+    display: none;
   }
 
   .repo-img-light {

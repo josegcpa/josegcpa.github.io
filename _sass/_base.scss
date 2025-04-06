@@ -32,6 +32,9 @@ body {
   font-family: $font-name, sans-serif;
   font-style: 'normal';
   font-weight: 400;
+  line-height: 1.6rem;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,10 +75,10 @@ figure, img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 2px solid var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 1.2rem;
+  border-left: $size-xxs solid var(--global-theme-color);
+  margin: $size-xxl $size-xl;
+  padding: $size-xxl $size-xl;
+  font-size: $font-size;
 }
 
 // Math
@@ -88,7 +91,7 @@ blockquote {
 // Caption
 
 .caption {
-  font-size: 0.875rem;
+  font-size: $font-size-tiny;
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -97,7 +100,7 @@ blockquote {
 // Card
 
 .card {
-  background-color: var(--global-card-bg-color);
+  background-color: var(--global-bg-color);
 
   img {
     width: 100%;
@@ -107,7 +110,7 @@ blockquote {
     color: var(--global-text-color);
   }
   .card-description {
-    font-size: 1rem;
+    font-size: $font-size;
     font-style: italic;
   }
 
@@ -130,28 +133,39 @@ blockquote {
 
 // Profile
 
-.profile {
+.header-grid {
+  display: grid;
   width: 100%;
+  grid-template-columns: auto auto;
+  gap: 0px;
 
-  .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    p {
-      display: inline-block;
-      margin: 0;
+  .profile-and-header-name {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: auto 1fr;
+    
+    .profile {
+      width: 3.0rem;
+      justify-self: start;
+    }
+    
+    .header-name {
+      justify-self: start;
     }
   }
+
+  
+  .desc {
+    text-align: right;
+    line-height: 1.5rem;
+    font-family: $title-font-name;
+    justify-self: end;
+  }
 }
-.profile.float-right{
-  margin-left: 1rem;
-}
-.profile.float-left{
-  margin-right: 1rem;
-}
+
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
     .address {
       p { display: block; }
     }
@@ -160,7 +174,7 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: $font-size;
   a {
     color: inherit;
     &:hover {
@@ -175,13 +189,17 @@ blockquote {
 
 .navbar {
   box-shadow: none;
+  -webkit-box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  max-width: 700px;
+  margin: auto;
+  padding: 0;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
+  border: $border-size-light solid var(--global-divider-color);
   a:not(.active) {
     color: var(--global-text-color);
   }
@@ -189,7 +207,7 @@ blockquote {
     color: var(--global-hover-color);
   }
   .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
+    border-top: 1px solid var(--global-divider-color !important);
   }
 }
 .dropdown-item {
@@ -225,7 +243,7 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -289,8 +307,9 @@ blockquote {
 
 .social {
   text-align: center;
+  padding-top: 1.0rem;
   .contact-icons {
-    font-size: 2rem;
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -304,7 +323,7 @@ blockquote {
     }
   }
   .contact-note {
-    font-size: 0.8rem;
+    font-size: $font-size-smaller;
   }
 }
 
@@ -312,7 +331,7 @@ blockquote {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: $font-size-tiny;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -331,17 +350,21 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 0.9rem;
+  font-size: $font-size-tiny;
 }
 
 // CV
 
 .cv {
+  display: grid;
   margin-bottom: 40px;
+  grid-template-columns: 1fr;
+  gap: 10px;
   
   .card {
-    background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    border: $border-size-light solid var(--global-divider-color);
+    padding: 20px;
+    padding-bottom: 0px;
     
     .list-group-item {
       background-color: inherit;
@@ -351,7 +374,7 @@ footer.sticky-bottom {
         padding: 0.4em 0.6em;
         background-color: transparent !important;
         color: var(--global-text-color) !important;
-        border: 1px solid var(--global-text-color);
+        border: $border-size solid var(--global-text-color);
         cursor: default; 
       }
 
@@ -374,21 +397,19 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 0.75rem;
   padding-bottom: 1.5rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 3.5rem;
+    font-size: $font-size-huge;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: $font-size-larger;
   }
 }
 
 .tag-list {
-  border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
 
   ul {
@@ -409,22 +430,21 @@ footer.sticky-bottom {
   margin-bottom: 40px;
   padding: 0;
   li {
-    border-bottom: 1px solid var(--global-divider-color);
+    border: $border-size-light solid var(--global-divider-color);
+    border-radius: 4px;
+    padding: 1rem;
+    padding-bottom: 0px;
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    .post-title {
-      font-size: 1.5rem;
-    }
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      margin-bottom: 0;
+      font-size: $font-size-small;
     }
     .post-tags {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
-      padding-top: 0.25rem;
+      font-size: $font-size-small;
+      padding-top: $font-size-small;
       padding-bottom: 0;
     }
     a {
@@ -516,7 +536,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    font-size: $font-size-larger;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -524,7 +544,7 @@ footer.sticky-bottom {
   h2 {
     margin-bottom: 1rem;
     span {
-      font-size: 1.5rem;
+      font-size: $font-size-large;
     }
   }
   h2.year {
@@ -564,11 +584,11 @@ footer.sticky-bottom {
         }
         .award {
           color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+          border: $border-size-light solid var(--global-theme-color);
         }
       }
       .title {
-        font-weight: bolder;
+        font-size: $font-size-large;
       }
       .author {
         a {
@@ -595,11 +615,12 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          border: $border-size solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
+          margin-top: 0.2rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -607,7 +628,7 @@ footer.sticky-bottom {
         }
       }
       .hidden {
-        font-size: 0.875rem;
+        font-size: $font-size-smaller;
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
@@ -622,7 +643,7 @@ footer.sticky-bottom {
           margin: 10px;
         }
         pre {
-          font-size: 1em;
+          font-size: $font-size;
           line-height: 1.4em;
           padding: 10px;
         }
@@ -683,12 +704,12 @@ html.transition *:after {
 .post{
   .post-meta{
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: $font-size-small;
     margin-bottom: 0;
   }
   .post-tags{
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: $font-size-small;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
     a {
@@ -753,25 +774,22 @@ html.transition *:after {
 }
 
 .hobby-title {
-  font-size: 0.9em;
-  padding: 0.1em;
-  margin-top: 1.5px;
-  margin-bottom: 1.5px;
-  margin-right: 4px;
+  font-size: $font-size-smaller;
+  padding: $size-xs;
+  margin-top: $size-xxs 0;
+  margin-right: $size-xs;
   font-weight: 700;
   color: var(--global-text-color);
 }
 
 .hobby {
   display: inline-block;
-  padding: 0.1em 0.7em;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  padding: $size-xxs $size;
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: $font-size-tiny;
   text-align: center;
   vertical-align: baseline;
-  border: 1.5px solid var(--global-text-color);
+  border: $border-size solid var(--global-text-color);
   border-radius: 100px;
   color: var(--global-text-color);
   transition: all 0.2s ease-in-out;
@@ -795,14 +813,12 @@ html.transition *:after {
 .badge-authorship {
   display: inline-block;
   column-gap: 3px;
-  font-weight: 500;
   border-radius: 100px;
-  padding: 0.1em 0.45em;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  padding: 0 $size;
+  margin: $size-xxs 0;
   color: var(--global-text-color) !important;
-  border: 1.5px solid var(--global-text-color);
-  font-size: 0.8em;
+  border: $border-size solid var(--global-text-color);
+  font-size: $font-size-small;
   cursor: default;
   white-space: nowrap;
 
@@ -821,13 +837,8 @@ html.transition *:after {
   margin-right: 4px;
 }
 
-.header-grid {
-  display: grid;
-  grid-template-columns:max-content 1fr;
-}
-
 .footer-text {
-  font-size: 1.0em;
+  font-size: $font-size;
   margin-bottom: 1.5px;
   margin-right: 4px;
   font-weight: 200;
@@ -856,7 +867,13 @@ footer {
 
 @media (max-width: 650px) {
   .header-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
+    .desc {
+      text-align: left;
+      width: 100%;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
   }
 }
 
@@ -866,6 +883,13 @@ footer {
   }
 }
 
+// Overall content container
+
+.container-all {
+  margin-top: $size-l;
+}
+
+// Paginantion
 .pagination .page-item.active .page-link {
   color: #fff;
   background-color: #4285f4;
@@ -885,7 +909,7 @@ footer {
 }
 
 .pagination .page-item .page-link {
-  font-size: .9rem;
+  font-size: $font-size-small;
   color: #212529;
   background-color: transparent;
   border: 0;
@@ -895,5 +919,5 @@ footer {
 }
 
 .pagination.pagination-lg .page-item .page-link {
-  font-size: 1rem
+  font-size: $font-size
 }
