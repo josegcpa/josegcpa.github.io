@@ -7,7 +7,7 @@ description: "Ao long dos anos, vários mitos danosos contra a comunidade trans 
 permalink: /blog_posts/dossier-trans
 author_profile: false
 sidebar: false
-tags: fact-checking
+tags: science
 img: assets/img/trans-flag.png
 ---
 

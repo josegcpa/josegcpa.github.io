@@ -8,7 +8,7 @@ description:
 permalink: /blog_posts/a-curadoria-da-vida
 author_profile: true
 sidebar: true
-tags: 
+tags: essay
 published: false
 ---
 

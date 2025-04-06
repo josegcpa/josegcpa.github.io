@@ -4,7 +4,7 @@ title: '"Factos" não são factos - um caso prático de desinformação baseado 
 date: 2020-04-16
 excerpt: ""
 permalink: /blog_posts/factos-nao-sao-fatos
-tags: fact-checking
+tags: science
 ---
 
 # "Factos" não são factos - um caso prático de desinformação baseado em "ciência"
