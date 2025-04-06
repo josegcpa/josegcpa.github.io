@@ -80,6 +80,19 @@ blockquote {
   font-size: $font-size;
 }
 
+// Loading
+#loadingDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--global-bg-color);
+  z-index: 10000;
+  display: block;
+  transition: 0.5s ease;
+}
+
 // Math
 
 .equation {
@@ -173,6 +186,7 @@ blockquote {
     display: grid;
     gap: 16px;
     grid-template-columns: auto 1fr;
+    align-items: center;
     
     .profile {
       width: 3.0rem;
@@ -556,10 +570,14 @@ footer.sticky-bottom {
   h2.year {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    height: fit-content;
+  }
+  h2.year:first-of-type {
+    margin-top: 0;
   }
   ol.bibliography {
     list-style: none;
@@ -803,7 +821,7 @@ html.transition *:after {
   padding: 0 $size;
   margin: $size-xxs 0;
   color: var(--global-text-color) !important;
-  border: $border-size solid var(--global-text-color);
+  border: $border-size-light solid var(--global-text-color);
   font-size: $font-size-smaller;
   cursor: default;
   white-space: nowrap;
@@ -873,6 +891,15 @@ footer {
       padding-right: 15px;
       padding-bottom: 10px;
     }
+  }
+
+  .profile-and-header-name {
+    .card-title {
+      font-size: $font-size-larger;
+    }
+  }
+  .publications {
+    margin-top: 0rem;
   }
 }
 

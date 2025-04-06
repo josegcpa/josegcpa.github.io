@@ -12,8 +12,11 @@
 
 <!-- Body -->
 
+
 <body
   class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+  <div id="loadingDiv"></div>
 
   <!-- Header -->
   {%- include header.html %}
@@ -32,6 +35,16 @@
   {% include scripts/masonry.html %}
   {% include scripts/misc.html %}
   {% include scripts/analytics.html %}
+
+  <script>
+    const loadingDiv = document.getElementById("loadingDiv")
+    loadingDiv.style.opacity = 0.0
+    setTimeout(
+      function () {
+        loadingDiv.style.display = "none";
+      }, 500
+    );
+  </script>
 </body>
 
 </html>
