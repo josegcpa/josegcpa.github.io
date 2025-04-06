@@ -113,7 +113,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: blog # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: some blog posts in Portuguese. chronological
+blog_description: some blog posts in Portuguese/English. chronological
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -206,7 +206,7 @@ jekyll-archives:
   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
-    tag: archive-tag
+    tag: archive-tag-blog
     category: archive-category
   permalinks:
     year: "/blog/:year/"
@@ -276,7 +276,6 @@ imagemagick:
   widths:
     - 480
     - 800
-    - 1400
   input_directories:
     - assets/img/
   input_formats:
