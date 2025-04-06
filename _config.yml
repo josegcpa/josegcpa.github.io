@@ -279,6 +279,7 @@ imagemagick:
   input_directories:
     - assets/img/
   input_formats:
+    - ".webp"
     - ".jpg"
     - ".jpeg"
     - ".png"

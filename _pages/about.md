@@ -17,7 +17,7 @@ hobbies:
 
 profile:
   align: right
-  image: prof_pic.webp
+  image: prof_pic_small.jpg
   image_circular: true # crops the image to make it circular
   address: >
 
