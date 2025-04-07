@@ -134,7 +134,9 @@ blockquote {
   }
 
   .card-title {
-    color: var(--global-text-color);
+    a {
+      color: var(--global-theme-color);
+    }
   }
   .card-description {
     font-size: $font-size-small;
