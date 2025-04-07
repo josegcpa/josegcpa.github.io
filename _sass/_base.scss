@@ -356,7 +356,6 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    padding-top: 15px;
     font-size: 1.5rem;
     a {
       i::before {
@@ -371,7 +370,7 @@ blockquote {
     }
   }
   .contact-note {
-    font-size: $font-size-smaller;
+    font-size: $font-size-small;
   }
 }
 
@@ -852,7 +851,7 @@ html.transition *:after {
 }
 
 .footer-text {
-  font-size: $font-size;
+  font-size: $font-size-small;
   margin-bottom: 1.5px;
   margin-right: 4px;
   font-weight: 200;

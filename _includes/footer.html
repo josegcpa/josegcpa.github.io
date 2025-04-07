@@ -1,19 +1,39 @@
-    {% if site.footer_fixed %}
-    <footer class="fixed-bottom">
-      <div class="footer-text">
-        &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
-      </div>
-    </footer>
-    {%- else -%}
-    <footer class="sticky-bottom mt-4">
-      <div class="footer-text">
-        &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
-      </div>
-    </footer>
+{% if site.footer_fixed %}
+<footer class="fixed-bottom">
+  <div class="social">
+    <div class="contact-note">
+      {{ site.contact_note }}
+    </div>
+    <div class="contact-icons">
+      {% include social.html %}
+    </div>
+  </div>
+  <div class="footer-text">
+    &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{
+    site.footer_text }}
+    {%- if site.last_updated -%}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
     {%- endif %}
+
+  </div>
+</footer>
+{%- else -%}
+<footer class="sticky-bottom mt-4">
+  <div class="social">
+    <div class="contact-note">
+      {{ site.contact_note }}
+    </div>
+    <div class="contact-icons">
+      {% include social.html %}
+    </div>
+  </div>
+  <div class="footer-text">
+    &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{
+    site.footer_text }}
+    {%- if site.last_updated -%}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {%- endif %}
+  </div>
+
+</footer>
+{%- endif %}
