@@ -8,10 +8,11 @@ middle_name: G.
 last_name: de Almeida
 email: jose.almeida@research.fchampalimaud.org
 description: >
-  José is a post-doctoral researcher working on deep-learning applications for diagnosis and prognosis.
+  José is a clinical data scientist and ML engineer. 
+  Their hobbies include reading, web dev and wondering what to have for dinner.
 footer_text: >
 
-keywords: computational-biology, deep-learning, machine-learning, computer-vision, statistical-modelling # add your own keywords or leave empty
+keywords: computational-biology, deep-learning, artificial-intelligence, machine-learning, computer-vision, statistical-modelling # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
