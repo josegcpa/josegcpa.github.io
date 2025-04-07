@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: none
 title: '"Factos" não são factos - um caso prático de desinformação baseado em "ciência"'
 date: 2020-04-16
 excerpt: ""
@@ -7,10 +7,7 @@ permalink: /blog_posts/factos-nao-sao-fatos
 tags: science
 ---
 
-# "Factos" não são factos - um caso prático de desinformação baseado em "ciência"
-
 Em resposta a "Visão Factual Epidemiológica: Portugal é um dos países mais perigosos do mundo na Covid-19" de Pedro Caetano, no Observador.
-[JG Almeida](mailto:jose.gcp.almeida@gmail.com)
 
 <center><img src="/assets/img/factos/0.png" width="600"/></center>
 <br>

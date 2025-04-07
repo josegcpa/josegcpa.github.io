@@ -60,20 +60,20 @@ pagination:
     {% assign categories = post.categories | join: "" %}
 
     {% if post.note == true %}
-      {% assign additional_li_classes = "card-note" %}
-    {% else %}
       {% assign additional_li_classes = "" %}
+    {% else %}
+      {% assign additional_li_classes = "card-note" %}
     {% endif %}
 
     <li class="card card-no-hover {{additional_li_classes}}">
         {% if post.note == true %}
-        <h2 class="card-title">{{ post.title }}</h2>
+        <h2 class="card-title">📝 {{ post.title }}</h2>
         {% if post.description %}
         <p style="font-style: italic;">{{ post.description }}</p>
         {% endif %}
         <p>{{post.content}}</p>
         {% else %}
-        <h2 class="card-title">{{ post.title }}</h2>
+        <h2 class="card-title">🔗 {{ post.title }}</h2>
         {% if post.description %}
         <p>{{ post.description }}</p>
         {% endif %}

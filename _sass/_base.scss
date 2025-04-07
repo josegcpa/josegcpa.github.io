@@ -9,7 +9,7 @@
   src: url('../fonts/#{$font-name}/#{$font-name}-Regular.woff2') format('woff2'),
        url('../fonts/#{$font-name}/#{$font-name}-Regular.woff') format('woff');
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -17,7 +17,7 @@
   src: url('../fonts/#{$font-name}/#{$font-name}-Italic.woff2') format('woff2'),
        url('../fonts/#{$font-name}/#{$font-name}-Italic.woff') format('woff');
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   src: url('../fonts/#{$title-font-name}/#{$title-font-name}-Regular.woff2') format('woff2'),
        url('../fonts/#{$title-font-name}/#{$title-font-name}-Regular.woff') format('woff');
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 body {
@@ -81,6 +81,7 @@ blockquote {
 }
 
 // Loading
+
 #loadingDiv {
   position: absolute;
   top: 0;
@@ -169,6 +170,22 @@ blockquote {
 
   &:active {
     box-shadow: none !important;
+  }
+
+  ol, ul {
+    padding-bottom: 16px;
+  }
+
+  .footnotes {
+    font-size: $font-size-smaller;
+
+    ol {
+      li {
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }
 

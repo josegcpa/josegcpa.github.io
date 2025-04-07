@@ -5,8 +5,6 @@ collection: blog_posts
 date: 2022-08-03
 description: "Ao long dos anos, vários mitos danosos contra a comunidade trans foram criados; nesta pequena coleção, mostro e explico artigos científicos que refutam muitas destas afirmações"
 permalink: /blog_posts/dossier-trans
-author_profile: false
-sidebar: false
 tags: science
 img: assets/img/trans-flag.png
 ---
