@@ -8,23 +8,21 @@ note: true
 tags: tech
 ---
 
-Recently, I have been wondering about AI coding assistants (AICA) for coding. A lot of what I do day-to-day is coding, so having a convenient assistant is good.
+Recently, I have been wondering about AI coding assistants (AICA). A lot of what I do day-to-day is coding, so having a convenient assistant is good.
 
 I have tried a few and my general impression is simple: it works well, but it frequently introduces bugs which I have to fix. Ultimately, I have a hard time understanding whether I see an improvement in my coding ability or not - on one hand I can code faster; on the other I have to fix more bugs.
 
 So I took a quick dive into the literature (some early works trying to predict productivity gains are available, but, alas!, behind these keystrokes lies an empiricist):
 - GitClear conducted their own study into this, showing that post-AICA code has a higher churn rate (i.e. code requiring maintenance further down the line) [^1]
-- Some works focus on understanding whether AICA solutions are good without verification - they are not[^2][^3], with [^4] showing that only 30% of code suggestions are accepted 
-- In terms of productivity, [^4] claims a 30% increase in productivity (!), but they measure productivity as the acceptance rate of AICA suggestions, which, despite being a somewhat dumb metric, is associated with *perceived* productivity [^5]
-
-
+- Some works focus on understanding whether AICA solutions are good without verification - they are not[^2] [^3], with a recent work showing that only 30% of code suggestions are accepted [^4]
+- In terms of productivity, the same work claims a 30% increase in productivity (!) [^4]. However, productivity is measured as the acceptance rate of AICA suggestions, which, despite being a somewhat dumb metric, is associated with *perceived* productivity [^5]
 
 From other works on the impact of coding assistants on productivity, we get a heterogenous picture:
 
 1. a study asking participants to implement an HTTP server in JS as quickly as possible showed that people using AICA were able to get the job done 50% faster [^6]
 2. a study from Uplevel (on 800 of its customers) saw a 40% increase (!) in bugs with very little impact on efficiency (PR cycles reduced by 1.7 minutes) and no impact on burnout rate [^7]
-3. shows an increase in PRs but also a decrease in build success rates [^8]
-4. a study surveying developers determined that they are generally positive about AICA, but are somewhat fearful of more junior developers not having the opportunity to own up to their skills if they rely too heavily on these tools; additionally they were more keen to boast its efficiency boosts when tasks are easy or repetitive (i.e. the usual boilerplate code) which leaves more time for learning and for creative thinking [^9]
+3. a study shows an increase in PRs but also a decrease in build success rates [^8]
+4. a study surveying developers determined that they are generally positive about AICA, but are somewhat fearful that more junior developers won't have the opportunity to own up to their skills if they rely too heavily on these tools; additionally they were more keen to boast its efficiency boosts when tasks are easy or repetitive (i.e. the usual boilerplate code) which leaves more time for learning and creative thinking [^9]
 5. a study on developers in the public sector highlights a similar trend, with developers feeling that they have more time to focus on more meaningful and rewarding tasks if they use AICA [^10]
 6. showed that GH CoPilot has a more positive impact when used by experts and that it can be harmful for novices as it suggests buggy/complicated code which novices cannot fully comprehend [^11]
 
