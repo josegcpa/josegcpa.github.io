@@ -395,7 +395,7 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: $border-size solid var(--global-divider-color);
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: $font-size-tiny;
@@ -551,6 +551,16 @@ footer.sticky-bottom {
 
 
 // Publications
+
+.bib-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 40px;
+}
 
 .publications {
   margin-top: 2rem;
@@ -874,7 +884,7 @@ footer {
 
   .navbar {
     .container {
-      border-bottom: $border-size-light solid var(--global-divider-color);
+      border-bottom: $border-size solid var(--global-divider-color);
       padding-left: 0px;
       padding-right: 0px;
       margin-left: 5px;
