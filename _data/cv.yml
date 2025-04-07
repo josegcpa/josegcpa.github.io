@@ -48,7 +48,7 @@
   contents:
     - title: Clinical AI researcher
       institution: Champalimaud Centre for the Unknown
-      year: 2022-present
+      year: 2022-now
       description:
       - Development of supervised, semi-supervised and self-supervised deep-learning methods for clinical image classification and segmentation (CT, MRI)
       - Development of generative AI methods for data harmonization and synthetic data generation
