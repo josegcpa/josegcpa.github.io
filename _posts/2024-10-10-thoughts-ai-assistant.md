@@ -1,7 +1,7 @@
 ---
 title: "Some notes on programming and coding with AI assistants"
 collection: blog_posts
-description: most IDEs come pre-packaged with their own AI assistant for coding. but who should use them?
+description: Most IDEs come pre-packaged with their own AI assistant for coding. But who should use them?
 date: 2024-10-10
 layout: post
 note: true
@@ -19,13 +19,14 @@ So I took a quick dive into the literature (some early works trying to predict p
 
 
 
-From other works on the impact of coding assistants on productivity, we get a heterogenous picture: 
-(i) a study asking participants to implement an HTTP server in JS as quickly as possible showed that people using AICA were able to get the job done 50% faster [^6]
-(ii) a study from Uplevel (on 800 of its customers) saw a 40% increase (!) in bugs with very little impact on efficiency (PR cycles reduced by 1.7 minutes) and no impact on burnout rate [^7]
-(iii) shows an increase in PRs but also a decrease in build success rates [^8]
-(iv) a study surveying developers determined that they are generally positive about AICA, but are somewhat fearful of more junior developers not having the opportunity to own up to their skills if they rely too heavily on these tools; additionally they were more keen to boast its efficiency boosts when tasks are easy or repetitive (i.e. the usual boilerplate code) which leaves more time for learning and for creative thinking [^9]
-(v) a study on developers in the public sector highlights a similar trend, with developers feeling that they have more time to focus on more meaningful and rewarding tasks if they use AICA [^10]
-(vi) showed that GH CoPilot has a more positive impact when used by experts and that it can be harmful for novices as it suggests buggy/complicated code which novices cannot fully comprehend [^11]
+From other works on the impact of coding assistants on productivity, we get a heterogenous picture:
+
+1. a study asking participants to implement an HTTP server in JS as quickly as possible showed that people using AICA were able to get the job done 50% faster [^6]
+2. a study from Uplevel (on 800 of its customers) saw a 40% increase (!) in bugs with very little impact on efficiency (PR cycles reduced by 1.7 minutes) and no impact on burnout rate [^7]
+3. shows an increase in PRs but also a decrease in build success rates [^8]
+4. a study surveying developers determined that they are generally positive about AICA, but are somewhat fearful of more junior developers not having the opportunity to own up to their skills if they rely too heavily on these tools; additionally they were more keen to boast its efficiency boosts when tasks are easy or repetitive (i.e. the usual boilerplate code) which leaves more time for learning and for creative thinking [^9]
+5. a study on developers in the public sector highlights a similar trend, with developers feeling that they have more time to focus on more meaningful and rewarding tasks if they use AICA [^10]
+6. showed that GH CoPilot has a more positive impact when used by experts and that it can be harmful for novices as it suggests buggy/complicated code which novices cannot fully comprehend [^11]
 
 My take on this: it can be useful, but a lot of the benefits are overstated and novice developers benefit greatly from steering clear from it while learning. Benefits appear to lie in a speed-quality tradeoff curve, so each position will have a specific position on this.
 

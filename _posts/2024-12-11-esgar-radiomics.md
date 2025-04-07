@@ -1,7 +1,7 @@
 ---
 title: "How to develop a radiomics signature"
 collection: blog_posts
-description: presentation and workshop on applying machine-learning to radiology data to medical doctors + biomedical researchers
+description: Presentation and workshop on applying machine-learning to radiology data to medical doctors + biomedical researchers
 venue: "EMBL"
 date: 2024-12-11
 location: "webinar"

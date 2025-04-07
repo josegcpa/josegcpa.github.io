@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Montanhas Azuis - Ilha de Plástico"
+description: Disco de jazz curtinho mas muito memorável. Difícil não pensar nos êxitos mais etéreos dos Mahavishnu Orchestra ou na música do quarto mundo do Hassel.
 collection: blog_posts
 date: 2019-02-17
 author_profile: true

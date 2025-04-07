@@ -1,6 +1,7 @@
 ---
 layout: none
 title: '"Factos" não são factos - um caso prático de desinformação baseado em "ciência"'
+description: "Uma análise crítica de um artigo miserável publicado no Observador."
 date: 2020-04-16
 excerpt: ""
 permalink: /blog_posts/factos-nao-sao-fatos

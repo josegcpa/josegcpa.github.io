@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'Ferramenta para analisar sondagens'
+description: "Ferramenta para analisar sondagens. Trabalhei nisto com um intuito muito prático - estava farto de ver as análises paupérrimas das sondagens que eram feitas na imprensa nacional."
 collection: blog_posts
 date: 2020-08-26
 excerpt: ""
 permalink: /blog_posts/sondagens
-url: https://zegui7.shinyapps.io/B-A-BA-Sondagens/
 tags: science stats
 ---
 
