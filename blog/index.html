@@ -15,7 +15,7 @@ pagination:
 
 <div class="post">
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
+    <h1 class="blog-title">{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
 
@@ -60,9 +60,19 @@ pagination:
     {% assign categories = post.categories | join: "" %}
 
     {% if post.note == true %}
-      {% assign additional_li_classes = "" %}
+      {% assign additional_li_classes = "card-note" %}
     {% else %}
       {% assign additional_li_classes = "card-note" %}
+    {% endif %}
+
+    {% if post.elsewhere and post.elsewhere_link %}
+      {% assign post_url = post.elsewhere_link %}
+      {% assign target = "_blank" %}
+      {% assign emoji = "🔗" %}
+    {% else %}
+      {% assign post_url = post.url | prepend: site.baseurl %}
+      {% assign target = "_self" %}
+      {% assign emoji = "📖" %}
     {% endif %}
 
     <li class="card card-no-hover {{additional_li_classes}}">
@@ -73,22 +83,18 @@ pagination:
         {% endif %}
         <p>{{post.content}}</p>
         {% else %}
-        <h2 class="card-title">🔗 {{ post.title }}</h2>
+          <h2 class="card-title">
+            {{ emoji }} <a class="card-title" href="{{ post_url }}" target="{{ target }}">{{ post.title }}
+            </a></h2>
         {% if post.description %}
         <p>{{ post.description }}</p>
         {% endif %}
         {% endif %}
 
-        {% if post.note != true %}
-        {% if post.elsewhere != blank and post.elsewhere_link != blank %}
+        {% if post.note != true and post.elsewhere and post.elsewhere_link %}
         <p>
-          <b>Read more in <a href="{{ post.elsewhere_link }}" target="_blank">{{ post.elsewhere }}</a></b>
+          <b>Published in {{ post.elsewhere }}</b>
         </p>
-        {% else %}
-        <p>
-          <b>Read more <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">here</a></b>
-        </p>
-        {% endif %}
         {% endif %}
 
         <div class="post-meta">
@@ -109,7 +115,10 @@ pagination:
             {% endif %}
           </div>
         </div>
-    </li>
+        </li>
+        {% if post.note != true %}
+        </a>
+        {% endif %}
 
     {% endfor %}
   </ul>
