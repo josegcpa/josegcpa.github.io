@@ -864,12 +864,7 @@ html.transition *:after {
   border: $border-size-light solid var(--global-text-color);
   font-size: $font-size-smaller;
   cursor: default;
-  white-space: nowrap;
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  }  
+  white-space: nowrap; 
 }
 
 .badge-circle {
