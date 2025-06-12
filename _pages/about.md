@@ -26,7 +26,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! 👋 I am a data scientist and ML engineer doing research and development on clinical AI. Now, I am working on developing computational tools for medical image analysis with the [Computational Clinical Imaging Group](https://www.fchampalimaud.org/research/groups/papanikolaou) using artificial intelligence. 
+Hi! 👋 I am a data scientist and ML engineer (I guess that's AI engineer now?) doing research/development on clinical AI. Now, I am developing computational tools for medical image analysis with the [Computational Clinical Imaging Group](https://www.fchampalimaud.org/research/groups/papanikolaou) using artificial intelligence. 
 
 Previously:
 
