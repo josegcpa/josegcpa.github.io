@@ -91,10 +91,16 @@ pagination:
       {% endif %}
       {% endif %}
 
-      {% if post.note != true and post.elsewhere and post.elsewhere_link %}
+      {% if post.note != true %}
+      {% if post.elsewhere and post.elsewhere_link %}
       <p>
         <b>Published in {{ post.elsewhere }}</b>
       </p>
+        {% else %}
+        <p>
+          <b>Curious? <a href="{{ post_url }}" target="{{ target }}">Read more</a></b>
+        </p>
+        {% endif %}
       {% endif %}
 
       <div class="post-meta">
