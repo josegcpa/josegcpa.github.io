@@ -83,9 +83,7 @@ pagination:
         {% endif %}
         <p>{{post.content}}</p>
         {% else %}
-          <h2 class="card-title">
-            {{ emoji }} <a href="{{ post_url }}" target="{{ target }}">{{ post.title }}
-            </a></h2>
+          <h2 class="card-title">{{ emoji }} {{ post.title }}</h2>
         {% if post.description %}
         <p>{{ post.description }}</p>
         {% endif %}
@@ -94,7 +92,7 @@ pagination:
         {% if post.note != true %}
         {% if post.elsewhere and post.elsewhere_link %}
         <p>
-          <b>Published in {{ post.elsewhere }}</b>
+          <b>Published in <a href="{{ post.elsewhere_link }}" target="_blank">{{ post.elsewhere }}</a></b>
         </p>
         {% else %}
         <p>

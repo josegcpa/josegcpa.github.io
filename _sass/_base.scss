@@ -249,8 +249,11 @@ blockquote {
 }
 
 .post-description {
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: $font-size;
+  text-align: right;
+  font-style: italic;
   a {
     color: inherit;
     &:hover {
