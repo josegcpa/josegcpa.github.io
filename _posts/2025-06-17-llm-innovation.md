@@ -27,4 +27,6 @@ However, the kind of AI contributing to research - "solving cancer" or "saving t
 
 These are narrow applications - far from what attracts billions in funding. But they are capable of creating real value using AI (or similar) applications. Even in the age of agentic AI - where we expect LLMs to interact with one another - we will still require highly accurate tools which can be used to solve real-world problems. These tools will depend largely on specialist systems capable of solving specific problems with high fidelity - not on general intelligence (whatever that may end up being).
 
+And mind you: LLMs can actually be useful for some tasks! If you are equipped with a working brain, curiosity, and a healthy dose of skepticism. They can be super helpful in sifting through large documents or searching for information across multiple sources. Even for a little speculative methodological banter they can be super helpful. It's just that the "innovation" they can muster is only impressive when we forget that what we don't know can fill a library (in my case many times over).
+
 At the end of the day AI is already doing some pretty cool things! The vast majority, however, does not depend on the narrow definition of AI as text generation. And innovation - at least in the way that we, as people, can measure it, is not really a necessity for that.
