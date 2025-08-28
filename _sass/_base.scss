@@ -21,6 +21,15 @@
 }
 
 @font-face {
+  font-family: $font-name;
+  src: url('../fonts/#{$font-name}/#{$font-name}-Bold.woff2') format('woff2'), 
+       url('../fonts/#{$font-name}/#{$font-name}-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+  font-display: block;
+}
+
+@font-face {
   font-family: $title-font-name;
   src: url('../fonts/#{$title-font-name}/#{$title-font-name}-Regular.woff2') format('woff2'),
        url('../fonts/#{$title-font-name}/#{$title-font-name}-Regular.woff') format('woff');
@@ -42,6 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+}
+
+strong {
+  font-weight: bold !important;
 }
 
 hr {
@@ -320,7 +333,6 @@ blockquote {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      font-weight: bolder;
       color: var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);
@@ -457,6 +469,7 @@ footer.sticky-bottom {
       .badge {
         border-radius: 100px;
         padding: 0.4em 0.6em;
+        font-weight: normal;
         background-color: transparent !important;
         color: var(--global-text-color) !important;
         border: $border-size solid var(--global-text-color);
@@ -521,7 +534,7 @@ footer.sticky-bottom {
   color: var(--global-text-color) !important;
   border: $border-size solid var(--global-text-color);
   height: fit-content;
-  font-size: $font-size-small;
+  font-size: $font-size-smaller;
 }
 
 .badge:hover {
@@ -864,10 +877,11 @@ html.transition *:after {
   padding: 0 $size;
   margin: $size-xxs 0;
   color: var(--global-text-color) !important;
-  border: $border-size-light solid var(--global-text-color);
+  border: $border-size solid var(--global-text-color);
   font-size: $font-size-smaller;
   cursor: default;
   white-space: nowrap; 
+  font-weight: normal;
 }
 
 .badge-circle {
@@ -1016,4 +1030,12 @@ footer {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
   }
+}
+
+.article-img {
+  width: 100%;
+  border-radius: $border-size;
+  box-shadow: 0 2px 4px var(--global-theme-color);
+  margin-top: $size-xs;
+  margin-bottom: $size-m;
 }
