@@ -2,11 +2,11 @@
 title: "Thinking critically about teaching critical thinking"
 collection: blog_posts
 description: Is a pedagogy of critical thinking possible? I tried to find out
-date: 2025-12-30
+date: 2026-01-09
 layout: post
 note: false
 tags: science
-published: false
+published: true
 ---
 
 With an encroaching world of fake news and disinformation, critical thinking has taken the center stage. We hear about how it is oftentimes absent across the education spectrum, and come to terms with how sometimes we can fall prey to rushed and ill-formed conclusions.
