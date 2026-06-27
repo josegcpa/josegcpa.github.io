@@ -7,8 +7,8 @@ description: |
 date: 2026-06-26
 layout: post
 note: false
-tags: tech
-published: false
+tags: tech, science
+published: true
 ---
 
 I am not going to say that everyone is using LLM-based tools in their research or development activities. However, it sure is hard to run into someone who doesn't know about them. LLMs have a lot of potential benefits in both fields - but they also come with potential pitfalls. Knowing when to go for different tools can prove really helpful when you frequently hop between two different worlds. 
