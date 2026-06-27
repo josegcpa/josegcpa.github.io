@@ -7,7 +7,7 @@ description: |
 date: 2026-06-26
 layout: post
 note: false
-tags: tech, science
+tags: [tech, science]
 published: true
 ---
 
